@@ -3,7 +3,7 @@
     Dim sifre As String
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         kadi = "admin"
-        sifre = "1234"
+        sifre = "Emir<3"
         If TextBox1.Text = kadi And TextBox2.Text = sifre Then
             MsgBox("Doğru girdiniz")
         Else
