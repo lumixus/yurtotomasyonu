@@ -53,12 +53,14 @@ Partial Class Form1
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel5.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -183,10 +185,11 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Panel1.Location = New System.Drawing.Point(703, 27)
+        Me.Panel1.Location = New System.Drawing.Point(703, 26)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(312, 189)
         Me.Panel1.TabIndex = 9
@@ -327,6 +330,17 @@ Partial Class Form1
         Me.Label12.TabIndex = 7
         Me.Label12.Text = "32"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(92, 39)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(59, 56)
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -355,6 +369,7 @@ Partial Class Form1
         Me.Panel4.PerformLayout()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -390,4 +405,5 @@ Partial Class Form1
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
