@@ -4,7 +4,7 @@
     Dim anaform As Form
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         kadi = "admin"
-        sifre = "Emir123"
+        sifre = "1"
         If TextBox1.Text = kadi And TextBox2.Text = sifre Then
             MsgBox("Doğru girdiniz")
             anaform = Form1
