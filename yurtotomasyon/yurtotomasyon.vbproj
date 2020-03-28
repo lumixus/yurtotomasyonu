@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anaform.Designer.vb">
+      <DependentUpon>anaform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="anaform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="giris.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="anaform.resx">
+      <DependentUpon>anaform.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.vb</DependentUpon>
     </EmbeddedResource>
