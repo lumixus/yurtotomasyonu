@@ -9,11 +9,16 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Panel1.BackColor = Color.FromArgb(150, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
-        Panel2.BackColor = Color.FromArgb(150, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
-        Panel3.BackColor = Color.FromArgb(150, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
-        Panel4.BackColor = Color.FromArgb(150, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
-        Panel5.BackColor = Color.FromArgb(150, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+        Panel1.BackColor = Color.FromArgb(70, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+        Panel2.BackColor = Color.FromArgb(70, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+        Panel3.BackColor = Color.FromArgb(70, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+        Panel4.BackColor = Color.FromArgb(70, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+        Panel5.BackColor = Color.FromArgb(70, Panel1.BackColor.R, Panel1.BackColor.G, Panel1.BackColor.B)
+
+        Me.Chart1.Series("Series1").Points.AddXY("Dolu Oda", 80)
+        Me.Chart1.Series("Series1").Points.AddXY("Boş Oda", 40)
+        Me.Chart2.Series("Series1").Points.AddXY("Dolu Oda", 40)
+        Me.Chart2.Series("Series1").Points.AddXY("Boş Oda", 80)
 
     End Sub
 End Class
