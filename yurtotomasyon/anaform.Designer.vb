@@ -144,25 +144,25 @@ Partial Class Form1
         'ÖğrenciEkleToolStripMenuItem
         '
         Me.ÖğrenciEkleToolStripMenuItem.Name = "ÖğrenciEkleToolStripMenuItem"
-        Me.ÖğrenciEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.ÖğrenciEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ÖğrenciEkleToolStripMenuItem.Text = "Öğrenci Ekle"
         '
         'PersonelEkleToolStripMenuItem
         '
         Me.PersonelEkleToolStripMenuItem.Name = "PersonelEkleToolStripMenuItem"
-        Me.PersonelEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.PersonelEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PersonelEkleToolStripMenuItem.Text = "Personel Ekle"
         '
         'GörevEkleToolStripMenuItem
         '
         Me.GörevEkleToolStripMenuItem.Name = "GörevEkleToolStripMenuItem"
-        Me.GörevEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.GörevEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.GörevEkleToolStripMenuItem.Text = "Görev Ekle"
         '
         'OdaEkleToolStripMenuItem
         '
         Me.OdaEkleToolStripMenuItem.Name = "OdaEkleToolStripMenuItem"
-        Me.OdaEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.OdaEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.OdaEkleToolStripMenuItem.Text = "Oda Ekle"
         '
         'ÇıkışlToolStripMenuItem

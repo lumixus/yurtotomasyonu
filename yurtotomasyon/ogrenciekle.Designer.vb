@@ -47,7 +47,6 @@ Partial Class ogrenciekle
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
@@ -56,36 +55,44 @@ Partial Class ogrenciekle
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
+        Me.Button1.AutoEllipsis = True
+        Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
         Me.Button1.Location = New System.Drawing.Point(192, 382)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "EKLE"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.AutoEllipsis = True
+        Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.Control
         Me.Button2.Location = New System.Drawing.Point(456, 382)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "TEMİZLE"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(43, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(36, 19)
@@ -97,7 +104,7 @@ Partial Class ogrenciekle
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label2.Location = New System.Drawing.Point(43, 61)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(66, 19)
@@ -109,7 +116,7 @@ Partial Class ogrenciekle
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label3.Location = New System.Drawing.Point(43, 100)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(36, 19)
@@ -121,7 +128,7 @@ Partial Class ogrenciekle
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label4.Location = New System.Drawing.Point(43, 135)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(60, 19)
@@ -133,7 +140,7 @@ Partial Class ogrenciekle
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label5.Location = New System.Drawing.Point(43, 174)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(108, 19)
@@ -145,7 +152,7 @@ Partial Class ogrenciekle
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label6.Location = New System.Drawing.Point(43, 214)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(56, 19)
@@ -157,7 +164,7 @@ Partial Class ogrenciekle
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label7.Location = New System.Drawing.Point(43, 253)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(62, 19)
@@ -169,7 +176,7 @@ Partial Class ogrenciekle
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label9.Location = New System.Drawing.Point(400, 40)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(108, 19)
@@ -181,7 +188,7 @@ Partial Class ogrenciekle
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label10.Location = New System.Drawing.Point(400, 92)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(127, 19)
@@ -193,7 +200,7 @@ Partial Class ogrenciekle
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label11.Location = New System.Drawing.Point(400, 132)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(131, 19)
@@ -205,7 +212,7 @@ Partial Class ogrenciekle
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label12.Location = New System.Drawing.Point(400, 216)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(109, 19)
@@ -217,12 +224,12 @@ Partial Class ogrenciekle
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label13.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label13.Location = New System.Drawing.Point(400, 296)
+        Me.Label13.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label13.Location = New System.Drawing.Point(391, 296)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(96, 19)
+        Me.Label13.Size = New System.Drawing.Size(116, 19)
         Me.Label13.TabIndex = 14
-        Me.Label13.Text = "Kayıt Tarihi:"
+        Me.Label13.Text = "Doğum Tarihi:"
         '
         'TextBox1
         '
@@ -283,6 +290,7 @@ Partial Class ogrenciekle
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton1.Location = New System.Drawing.Point(8, 20)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(92, 17)
@@ -301,11 +309,12 @@ Partial Class ogrenciekle
         Me.GroupBox1.Size = New System.Drawing.Size(212, 46)
         Me.GroupBox1.TabIndex = 24
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "Seçim"
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton2.Location = New System.Drawing.Point(98, 21)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(89, 17)
@@ -313,14 +322,6 @@ Partial Class ogrenciekle
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "İkinci Öğretim"
         Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(534, 93)
-        Me.TextBox9.MaxLength = 4
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox9.TabIndex = 25
         '
         'GroupBox2
         '
@@ -334,11 +335,12 @@ Partial Class ogrenciekle
         Me.GroupBox2.Size = New System.Drawing.Size(217, 80)
         Me.GroupBox2.TabIndex = 26
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
+        Me.GroupBox2.Text = "Seçim"
         '
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton5.Location = New System.Drawing.Point(99, 46)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(75, 17)
@@ -350,6 +352,7 @@ Partial Class ogrenciekle
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton6.Location = New System.Drawing.Point(9, 45)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(69, 17)
@@ -361,6 +364,7 @@ Partial Class ogrenciekle
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton3.Location = New System.Drawing.Point(98, 21)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(69, 17)
@@ -372,6 +376,7 @@ Partial Class ogrenciekle
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.RadioButton4.Location = New System.Drawing.Point(8, 20)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(69, 17)
@@ -392,7 +397,7 @@ Partial Class ogrenciekle
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label8.Location = New System.Drawing.Point(43, 294)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(49, 19)
@@ -407,15 +412,32 @@ Partial Class ogrenciekle
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 22
         '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(534, 131)
+        Me.TextBox10.MaxLength = 4
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(120, 20)
+        Me.TextBox10.TabIndex = 28
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(533, 92)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 29
+        '
         'ogrenciekle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(760, 444)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.TextBox7)
@@ -440,7 +462,9 @@ Partial Class ogrenciekle
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Name = "ogrenciekle"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Öğrenci Ekle"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -475,7 +499,6 @@ Partial Class ogrenciekle
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
@@ -484,4 +507,6 @@ Partial Class ogrenciekle
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents ComboBox1 As ComboBox
 End Class

@@ -21,4 +21,8 @@
         Me.Chart2.Series("Series1").Points.AddXY("Boş Oda", 80)
 
     End Sub
+
+    Private Sub ÖğrenciEkleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÖğrenciEkleToolStripMenuItem.Click
+        ogrenciekle.Show()
+    End Sub
 End Class
