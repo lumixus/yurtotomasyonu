@@ -1,4 +1,4 @@
-
+﻿
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -17,7 +17,7 @@
 -- bolum - vc 30
 -- okul - vc 30
 -- ogrenimturu - vc 1
--- odanumarasi - vc 4
+-- odanumarasi - vc 4 - odaid
 -- gunceldonem - vc 6
 -- harcyatirdimi - bool 
 -- bursdurumu - int - bursid
