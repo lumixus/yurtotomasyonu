@@ -81,6 +81,13 @@
     <Compile Include="anaform.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ayarlar.Designer.vb">
+      <DependentUpon>ayarlar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baglanti.vb" />
     <Compile Include="giris.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +120,9 @@
   <ItemGroup>
     <EmbeddedResource Include="anaform.resx">
       <DependentUpon>anaform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayarlar.resx">
+      <DependentUpon>ayarlar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.vb</DependentUpon>

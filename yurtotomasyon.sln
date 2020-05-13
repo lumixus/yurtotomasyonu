@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "yurtotomasyon", "yurtotomasyon\yurtotomasyon.vbproj", "{B0C494FF-2801-46BA-99CB-66C4CDE52961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D010B1F9-DAB1-46EA-AAD9-FF0C7A20447E}"
+	ProjectSection(SolutionItems) = preProject
+		baglanti.vb = baglanti.vb
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
