@@ -58,4 +58,40 @@ Public Class Class1
         Dim sonuc As String = CStr(command.ExecuteScalar())
         Return sonuc
     End Function
+    Public Function getStaffCount() As String
+        command.CommandText = "Select count(*) from personeller"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        Dim sonuc As String = CStr(command.ExecuteScalar())
+        Return sonuc
+    End Function
+    Public Function getStudentCount() As String
+        command.CommandText = "Select count(*) from ogrenciler"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        Dim sonuc As String = CStr(command.ExecuteScalar())
+        Return sonuc
+    End Function
+    Public Function getRoomCount() As String
+        command.CommandText = "Select count(*) from odalar"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        Dim sonuc As String = CStr(command.ExecuteScalar())
+        Return sonuc
+    End Function
+    Public Function getBedCount() As String
+        command.CommandText = "Select sum(yataksayisi) from odalar"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        Dim sonuc As String = CStr(command.ExecuteScalar())
+        Return sonuc
+    End Function
+    Public Function getLastStudent() As String
+        command.CommandText = "Select * from ogrenciler order by id desc"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        data = command.ExecuteReader()
+        Dim kullaniciadi As String
+        Return kullaniciadi
+    End Function
 End Class
