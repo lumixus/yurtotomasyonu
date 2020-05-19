@@ -128,12 +128,15 @@
     <Compile Include="ogrenciler.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="personeller.Designer.vb">
       <DependentUpon>personeller.vb</DependentUpon>
     </Compile>
     <Compile Include="personeller.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+>>>>>>> parent of 095d78f... perssssss
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="anaform.resx">
@@ -160,9 +163,12 @@
     <EmbeddedResource Include="ogrenciler.resx">
       <DependentUpon>ogrenciler.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="personeller.resx">
       <DependentUpon>personeller.vb</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of 095d78f... perssssss
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
