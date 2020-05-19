@@ -54,4 +54,12 @@
     Private Sub GörevlerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GörevlerToolStripMenuItem.Click
         gorevler.Show()
     End Sub
+
+    Private Sub PersonelEkleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonelEkleToolStripMenuItem.Click
+        personelekle.Show()
+    End Sub
+
+    Private Sub OdalarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OdalarToolStripMenuItem.Click
+        Odalar.Show()
+    End Sub
 End Class

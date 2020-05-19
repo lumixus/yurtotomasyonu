@@ -23,12 +23,12 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.GörüntüleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÖğrencilerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -108,25 +108,25 @@ Partial Class Form1
         'ÖğrencilerToolStripMenuItem
         '
         Me.ÖğrencilerToolStripMenuItem.Name = "ÖğrencilerToolStripMenuItem"
-        Me.ÖğrencilerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÖğrencilerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.ÖğrencilerToolStripMenuItem.Text = "Öğrenciler"
         '
         'PersonellerToolStripMenuItem
         '
         Me.PersonellerToolStripMenuItem.Name = "PersonellerToolStripMenuItem"
-        Me.PersonellerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PersonellerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.PersonellerToolStripMenuItem.Text = "Personeller"
         '
         'ÖdemelerToolStripMenuItem
         '
         Me.ÖdemelerToolStripMenuItem.Name = "ÖdemelerToolStripMenuItem"
-        Me.ÖdemelerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÖdemelerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.ÖdemelerToolStripMenuItem.Text = "Ödemeler"
         '
         'GörevlerToolStripMenuItem
         '
         Me.GörevlerToolStripMenuItem.Name = "GörevlerToolStripMenuItem"
-        Me.GörevlerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GörevlerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.GörevlerToolStripMenuItem.Text = "Görevler"
         '
         'OdalarToolStripMenuItem
@@ -145,25 +145,25 @@ Partial Class Form1
         'ÖğrenciEkleToolStripMenuItem
         '
         Me.ÖğrenciEkleToolStripMenuItem.Name = "ÖğrenciEkleToolStripMenuItem"
-        Me.ÖğrenciEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.ÖğrenciEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ÖğrenciEkleToolStripMenuItem.Text = "Öğrenci Ekle"
         '
         'PersonelEkleToolStripMenuItem
         '
         Me.PersonelEkleToolStripMenuItem.Name = "PersonelEkleToolStripMenuItem"
-        Me.PersonelEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.PersonelEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PersonelEkleToolStripMenuItem.Text = "Personel Ekle"
         '
         'GörevEkleToolStripMenuItem
         '
         Me.GörevEkleToolStripMenuItem.Name = "GörevEkleToolStripMenuItem"
-        Me.GörevEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.GörevEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.GörevEkleToolStripMenuItem.Text = "Görev Ekle"
         '
         'OdaEkleToolStripMenuItem
         '
         Me.OdaEkleToolStripMenuItem.Name = "OdaEkleToolStripMenuItem"
-        Me.OdaEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.OdaEkleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.OdaEkleToolStripMenuItem.Text = "Oda Ekle"
         '
         'AyarlarToolStripMenuItem
@@ -520,28 +520,28 @@ Partial Class Form1
         Me.Chart1.BackImageTransparentColor = System.Drawing.Color.Transparent
         Me.Chart1.BackSecondaryColor = System.Drawing.Color.Transparent
         Me.Chart1.BorderlineColor = System.Drawing.Color.Transparent
-        ChartArea1.BackColor = System.Drawing.Color.Transparent
-        ChartArea1.BackImageTransparentColor = System.Drawing.Color.Transparent
-        ChartArea1.BackSecondaryColor = System.Drawing.Color.Transparent
-        ChartArea1.BorderColor = System.Drawing.Color.Transparent
-        ChartArea1.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea1)
-        Legend1.BackColor = System.Drawing.Color.Transparent
-        Legend1.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend1)
+        ChartArea3.BackColor = System.Drawing.Color.Transparent
+        ChartArea3.BackImageTransparentColor = System.Drawing.Color.Transparent
+        ChartArea3.BackSecondaryColor = System.Drawing.Color.Transparent
+        ChartArea3.BorderColor = System.Drawing.Color.Transparent
+        ChartArea3.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea3)
+        Legend3.BackColor = System.Drawing.Color.Transparent
+        Legend3.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend3)
         Me.Chart1.Location = New System.Drawing.Point(-4, 180)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None
         Me.Chart1.PaletteCustomColors = New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(92, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(88, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(141, Byte), Integer))}
-        Series1.ChartArea = "ChartArea1"
-        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
-        Series1.Color = System.Drawing.Color.Lime
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        Series1.ShadowColor = System.Drawing.Color.Black
-        Series1.ShadowOffset = 7
-        Series1.YValuesPerPoint = 2
-        Me.Chart1.Series.Add(Series1)
+        Series3.ChartArea = "ChartArea1"
+        Series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
+        Series3.Color = System.Drawing.Color.Lime
+        Series3.Legend = "Legend1"
+        Series3.Name = "Series1"
+        Series3.ShadowColor = System.Drawing.Color.Black
+        Series3.ShadowOffset = 7
+        Series3.YValuesPerPoint = 2
+        Me.Chart1.Series.Add(Series3)
         Me.Chart1.Size = New System.Drawing.Size(383, 288)
         Me.Chart1.TabIndex = 26
         Me.Chart1.Text = "Chart1"
@@ -550,33 +550,33 @@ Partial Class Form1
         '
         Me.Chart2.BackColor = System.Drawing.Color.Transparent
         Me.Chart2.BorderlineColor = System.Drawing.Color.Transparent
-        ChartArea2.BackColor = System.Drawing.Color.Transparent
-        ChartArea2.BackImageTransparentColor = System.Drawing.Color.Transparent
-        ChartArea2.BackSecondaryColor = System.Drawing.Color.Transparent
-        ChartArea2.BorderColor = System.Drawing.Color.Transparent
-        ChartArea2.Name = "ChartArea1"
-        ChartArea2.ShadowColor = System.Drawing.Color.Blue
-        Me.Chart2.ChartAreas.Add(ChartArea2)
-        Legend2.BackColor = System.Drawing.Color.Transparent
-        Legend2.Name = "Legend1"
-        Me.Chart2.Legends.Add(Legend2)
+        ChartArea4.BackColor = System.Drawing.Color.Transparent
+        ChartArea4.BackImageTransparentColor = System.Drawing.Color.Transparent
+        ChartArea4.BackSecondaryColor = System.Drawing.Color.Transparent
+        ChartArea4.BorderColor = System.Drawing.Color.Transparent
+        ChartArea4.Name = "ChartArea1"
+        ChartArea4.ShadowColor = System.Drawing.Color.Blue
+        Me.Chart2.ChartAreas.Add(ChartArea4)
+        Legend4.BackColor = System.Drawing.Color.Transparent
+        Legend4.Name = "Legend1"
+        Me.Chart2.Legends.Add(Legend4)
         Me.Chart2.Location = New System.Drawing.Point(403, 180)
         Me.Chart2.Name = "Chart2"
         Me.Chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None
         Me.Chart2.PaletteCustomColors = New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(51, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(101, Byte), Integer), CType(CType(115, Byte), Integer))}
-        Series2.BackImageTransparentColor = System.Drawing.Color.Transparent
-        Series2.BackSecondaryColor = System.Drawing.Color.Transparent
-        Series2.BorderColor = System.Drawing.Color.Transparent
-        Series2.ChartArea = "ChartArea1"
-        Series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
-        Series2.Color = System.Drawing.Color.Transparent
-        Series2.LabelBackColor = System.Drawing.Color.Transparent
-        Series2.LabelBorderColor = System.Drawing.Color.Transparent
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Series2.ShadowColor = System.Drawing.Color.Black
-        Series2.ShadowOffset = 7
-        Me.Chart2.Series.Add(Series2)
+        Series4.BackImageTransparentColor = System.Drawing.Color.Transparent
+        Series4.BackSecondaryColor = System.Drawing.Color.Transparent
+        Series4.BorderColor = System.Drawing.Color.Transparent
+        Series4.ChartArea = "ChartArea1"
+        Series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
+        Series4.Color = System.Drawing.Color.Transparent
+        Series4.LabelBackColor = System.Drawing.Color.Transparent
+        Series4.LabelBorderColor = System.Drawing.Color.Transparent
+        Series4.Legend = "Legend1"
+        Series4.Name = "Series1"
+        Series4.ShadowColor = System.Drawing.Color.Black
+        Series4.ShadowOffset = 7
+        Me.Chart2.Series.Add(Series4)
         Me.Chart2.Size = New System.Drawing.Size(383, 288)
         Me.Chart2.TabIndex = 27
         Me.Chart2.Text = "Chart2"

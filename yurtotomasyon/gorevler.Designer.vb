@@ -91,7 +91,7 @@ Partial Class gorevler
         Me.Label1.TabIndex = 46
         Me.Label1.Text = "ID"
         '
-        'gorevlerrr
+        'gorevler
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -103,7 +103,8 @@ Partial Class gorevler
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label9)
-        Me.Name = "gorevlerrr"
+        Me.Name = "gorevler"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Görevler"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
