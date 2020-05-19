@@ -122,6 +122,12 @@
     <Compile Include="ogrenciler.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="personelekle.Designer.vb">
+      <DependentUpon>personelekle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="personelekle.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="anaform.resx">
@@ -145,6 +151,9 @@
     <EmbeddedResource Include="ogrenciler.resx">
       <DependentUpon>ogrenciler.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="personelekle.resx">
+      <DependentUpon>personelekle.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -160,6 +169,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Midnight City.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Titanium.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
