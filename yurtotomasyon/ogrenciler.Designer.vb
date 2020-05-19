@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Ogrenciler
+Partial Class ogrenciler
     Inherits System.Windows.Forms.Form
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -66,21 +66,19 @@ Partial Class Ogrenciler
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(68, 52)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(51, 42)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(267, 57)
+        Me.Label9.Size = New System.Drawing.Size(210, 44)
         Me.Label9.TabIndex = 15
         Me.Label9.Text = "Öğrenciler"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(36, 137)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Location = New System.Drawing.Point(27, 111)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(869, 379)
+        Me.DataGridView1.Size = New System.Drawing.Size(652, 308)
         Me.DataGridView1.TabIndex = 16
         '
         'Label1
@@ -89,10 +87,9 @@ Partial Class Ogrenciler
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(959, 137)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(719, 111)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 33)
+        Me.Label1.Size = New System.Drawing.Size(119, 24)
         Me.Label1.TabIndex = 17
         Me.Label1.Text = "Öğrenci ID"
         '
@@ -102,10 +99,9 @@ Partial Class Ogrenciler
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(1281, 137)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(961, 111)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 33)
+        Me.Label2.Size = New System.Drawing.Size(44, 24)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "Adı"
         '
@@ -115,10 +111,9 @@ Partial Class Ogrenciler
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(984, 267)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(738, 217)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(104, 33)
+        Me.Label3.Size = New System.Drawing.Size(78, 24)
         Me.Label3.TabIndex = 19
         Me.Label3.Text = "Soyadı"
         '
@@ -128,10 +123,9 @@ Partial Class Ogrenciler
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(1269, 267)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(952, 217)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(100, 33)
+        Me.Label4.Size = New System.Drawing.Size(76, 24)
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "TC No."
         '
@@ -141,10 +135,9 @@ Partial Class Ogrenciler
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(959, 396)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(719, 322)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(162, 33)
+        Me.Label5.Size = New System.Drawing.Size(126, 24)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Telefon No."
         '
@@ -154,10 +147,9 @@ Partial Class Ogrenciler
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(1281, 396)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(961, 322)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(70, 33)
+        Me.Label6.Size = New System.Drawing.Size(51, 24)
         Me.Label6.TabIndex = 22
         Me.Label6.Text = "Mail"
         '
@@ -167,10 +159,9 @@ Partial Class Ogrenciler
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(131, 540)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(98, 439)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(113, 33)
+        Me.Label7.Size = New System.Drawing.Size(88, 24)
         Me.Label7.TabIndex = 23
         Me.Label7.Text = "Bölümü"
         '
@@ -180,10 +171,9 @@ Partial Class Ogrenciler
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(663, 540)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(497, 439)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(74, 33)
+        Me.Label8.Size = New System.Drawing.Size(57, 24)
         Me.Label8.TabIndex = 24
         Me.Label8.Text = "Okul"
         '
@@ -193,10 +183,9 @@ Partial Class Ogrenciler
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(107, 654)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(80, 531)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(188, 33)
+        Me.Label10.Size = New System.Drawing.Size(145, 24)
         Me.Label10.TabIndex = 25
         Me.Label10.Text = "Öğrenim Türü"
         '
@@ -206,10 +195,9 @@ Partial Class Ogrenciler
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(612, 654)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(459, 531)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(204, 33)
+        Me.Label11.Size = New System.Drawing.Size(159, 24)
         Me.Label11.TabIndex = 26
         Me.Label11.Text = "Oda Numarası"
         '
@@ -219,10 +207,9 @@ Partial Class Ogrenciler
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(107, 762)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(80, 619)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(217, 33)
+        Me.Label12.Size = New System.Drawing.Size(171, 24)
         Me.Label12.TabIndex = 27
         Me.Label12.Text = "Güncel Dönem"
         '
@@ -232,10 +219,9 @@ Partial Class Ogrenciler
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.White
-        Me.Label13.Location = New System.Drawing.Point(629, 762)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(472, 619)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(185, 33)
+        Me.Label13.Size = New System.Drawing.Size(146, 24)
         Me.Label13.TabIndex = 28
         Me.Label13.Text = "Harç Durumu"
         '
@@ -245,10 +231,9 @@ Partial Class Ogrenciler
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(119, 862)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(89, 700)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(174, 33)
+        Me.Label14.Size = New System.Drawing.Size(137, 24)
         Me.Label14.TabIndex = 29
         Me.Label14.Text = "Burs Durumu"
         '
@@ -258,10 +243,9 @@ Partial Class Ogrenciler
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(636, 862)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(477, 700)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(185, 33)
+        Me.Label15.Size = New System.Drawing.Size(141, 24)
         Me.Label15.TabIndex = 30
         Me.Label15.Text = "Doğum Tarihi"
         '
@@ -271,104 +255,92 @@ Partial Class Ogrenciler
         Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.White
-        Me.Label16.Location = New System.Drawing.Point(137, 961)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(103, 781)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(152, 33)
+        Me.Label16.Size = New System.Drawing.Size(112, 24)
         Me.Label16.TabIndex = 31
         Me.Label16.Text = "Kayıt Tarihi"
         '
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(968, 198)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Location = New System.Drawing.Point(726, 161)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 32
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(1253, 198)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Location = New System.Drawing.Point(940, 161)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 33
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(955, 458)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox3.Location = New System.Drawing.Point(716, 372)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 34
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(955, 335)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox4.Location = New System.Drawing.Point(716, 272)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 34
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(1253, 335)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox5.Location = New System.Drawing.Point(940, 272)
         Me.TextBox5.MaxLength = 11
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 35
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(1253, 458)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox6.Location = New System.Drawing.Point(940, 372)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
         Me.TextBox6.TabIndex = 36
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(124, 604)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox7.Location = New System.Drawing.Point(93, 491)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 37
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(635, 604)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox8.Location = New System.Drawing.Point(476, 491)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 38
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(124, 715)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Location = New System.Drawing.Point(93, 581)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(160, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 39
         '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(617, 715)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox2.Location = New System.Drawing.Point(463, 581)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(160, 24)
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox2.TabIndex = 40
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(128, 817)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox9.Location = New System.Drawing.Point(96, 664)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
         Me.TextBox9.TabIndex = 41
         '
         'CheckBox1
@@ -376,10 +348,9 @@ Partial Class Ogrenciler
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.CheckBox1.Location = New System.Drawing.Point(617, 821)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Location = New System.Drawing.Point(463, 667)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(76, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(59, 17)
         Me.CheckBox1.TabIndex = 42
         Me.CheckBox1.Text = "Yatırıldı"
         Me.CheckBox1.UseVisualStyleBackColor = False
@@ -389,10 +360,9 @@ Partial Class Ogrenciler
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton1.Location = New System.Drawing.Point(128, 914)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton1.Location = New System.Drawing.Point(96, 743)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(57, 21)
+        Me.RadioButton1.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton1.TabIndex = 43
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "%25"
@@ -403,10 +373,9 @@ Partial Class Ogrenciler
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton2.Location = New System.Drawing.Point(124, 946)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton2.Location = New System.Drawing.Point(93, 769)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(57, 21)
+        Me.RadioButton2.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton2.TabIndex = 44
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "%75"
@@ -417,10 +386,9 @@ Partial Class Ogrenciler
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton3.Location = New System.Drawing.Point(269, 918)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton3.Location = New System.Drawing.Point(202, 746)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(57, 21)
+        Me.RadioButton3.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton3.TabIndex = 45
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "%50"
@@ -428,18 +396,16 @@ Partial Class Ogrenciler
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(603, 918)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(452, 746)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(265, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 46
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(81, 1020)
-        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(61, 829)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(265, 22)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 47
         '
         'RadioButton4
@@ -447,21 +413,20 @@ Partial Class Ogrenciler
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton4.Location = New System.Drawing.Point(269, 946)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton4.Location = New System.Drawing.Point(202, 769)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(65, 21)
+        Me.RadioButton4.Size = New System.Drawing.Size(51, 17)
         Me.RadioButton4.TabIndex = 48
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "%100"
         Me.RadioButton4.UseVisualStyleBackColor = False
         '
-        'Ogrenciler
+        'ogrenciler
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1556, 1082)
+        Me.ClientSize = New System.Drawing.Size(1167, 879)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -497,8 +462,8 @@ Partial Class Ogrenciler
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label9)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Name = "Ogrenciler"
+        Me.Name = "ogrenciler"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ogrenciler"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
