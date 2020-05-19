@@ -122,6 +122,12 @@
     <Compile Include="ogrenciler.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="personeller.Designer.vb">
+      <DependentUpon>personeller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="personeller.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="anaform.resx">
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciler.resx">
       <DependentUpon>ogrenciler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personeller.resx">
+      <DependentUpon>personeller.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
