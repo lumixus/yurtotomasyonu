@@ -1,4 +1,4 @@
-﻿Public Class ogrenciler
+﻿Public Class Ogrenciler
     Dim con As New Class1
     Private Sub ogrenciler_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         con.openCon()
