@@ -263,6 +263,7 @@ Partial Class ogrenciler
         '
         'TextBox1
         '
+        Me.TextBox1.Enabled = False
         Me.TextBox1.Location = New System.Drawing.Point(726, 161)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
@@ -278,6 +279,7 @@ Partial Class ogrenciler
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(716, 372)
+        Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 34
@@ -292,6 +294,7 @@ Partial Class ogrenciler
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(940, 272)
+        Me.TextBox5.MaxLength = 11
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 35

@@ -110,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="odemeler.Designer.vb">
+      <DependentUpon>odemeler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="odemeler.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ogrenciekle.Designer.vb">
       <DependentUpon>ogrenciekle.vb</DependentUpon>
     </Compile>
@@ -122,10 +128,10 @@
     <Compile Include="ogrenciler.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="personelekle.Designer.vb">
-      <DependentUpon>personelekle.vb</DependentUpon>
+    <Compile Include="personeller.Designer.vb">
+      <DependentUpon>personeller.vb</DependentUpon>
     </Compile>
-    <Compile Include="personelekle.vb">
+    <Compile Include="personeller.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -145,14 +151,17 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="odemeler.resx">
+      <DependentUpon>odemeler.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ogrenciekle.resx">
       <DependentUpon>ogrenciekle.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciler.resx">
       <DependentUpon>ogrenciler.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="personelekle.resx">
-      <DependentUpon>personelekle.vb</DependentUpon>
+    <EmbeddedResource Include="personeller.resx">
+      <DependentUpon>personeller.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -169,9 +178,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Midnight City.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Titanium.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
