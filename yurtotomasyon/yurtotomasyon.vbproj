@@ -95,12 +95,6 @@
       <DependentUpon>giris.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="gorevlerrr.Designer.vb">
-      <DependentUpon>gorevlerrr.vb</DependentUpon>
-    </Compile>
-    <Compile Include="gorevlerrr.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -140,6 +134,12 @@
     <Compile Include="ogrenciler.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="personelekle.Designer.vb">
+      <DependentUpon>personelekle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="personelekle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="personeller.Designer.vb">
       <DependentUpon>personeller.vb</DependentUpon>
     </Compile>
@@ -156,9 +156,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="gorevlerrr.resx">
-      <DependentUpon>gorevlerrr.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -177,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciler.resx">
       <DependentUpon>ogrenciler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personelekle.resx">
+      <DependentUpon>personelekle.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="personeller.resx">
       <DependentUpon>personeller.vb</DependentUpon>
