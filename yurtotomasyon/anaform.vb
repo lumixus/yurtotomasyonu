@@ -38,4 +38,8 @@
         ayarlar.Show()
 
     End Sub
+
+    Private Sub ÖğrencilerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÖğrencilerToolStripMenuItem.Click
+        ogrenciler.Show()
+    End Sub
 End Class

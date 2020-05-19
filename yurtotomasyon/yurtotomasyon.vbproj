@@ -116,6 +116,12 @@
     <Compile Include="ogrenciekle.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ogrenciler.Designer.vb">
+      <DependentUpon>ogrenciler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciler.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="anaform.resx">
@@ -136,6 +142,9 @@
     <EmbeddedResource Include="ogrenciekle.resx">
       <DependentUpon>ogrenciekle.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciler.resx">
+      <DependentUpon>ogrenciler.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -148,6 +157,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Midnight City.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

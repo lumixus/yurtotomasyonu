@@ -41,10 +41,10 @@ Partial Class Form1
         Me.PersonelEkleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GörevEkleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OdaEkleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyarlarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÇıkışlToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HesaptanÇıkışYapToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProgramıKapatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AyarlarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -108,31 +108,31 @@ Partial Class Form1
         'ÖğrencilerToolStripMenuItem
         '
         Me.ÖğrencilerToolStripMenuItem.Name = "ÖğrencilerToolStripMenuItem"
-        Me.ÖğrencilerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
+        Me.ÖğrencilerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ÖğrencilerToolStripMenuItem.Text = "Öğrenciler"
         '
         'PersonellerToolStripMenuItem
         '
         Me.PersonellerToolStripMenuItem.Name = "PersonellerToolStripMenuItem"
-        Me.PersonellerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
+        Me.PersonellerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PersonellerToolStripMenuItem.Text = "Personeller"
         '
         'ÖdemelerToolStripMenuItem
         '
         Me.ÖdemelerToolStripMenuItem.Name = "ÖdemelerToolStripMenuItem"
-        Me.ÖdemelerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
+        Me.ÖdemelerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ÖdemelerToolStripMenuItem.Text = "Ödemeler"
         '
         'GörevlerToolStripMenuItem
         '
         Me.GörevlerToolStripMenuItem.Name = "GörevlerToolStripMenuItem"
-        Me.GörevlerToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
+        Me.GörevlerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.GörevlerToolStripMenuItem.Text = "Görevler"
         '
         'OdalarToolStripMenuItem
         '
         Me.OdalarToolStripMenuItem.Name = "OdalarToolStripMenuItem"
-        Me.OdalarToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
+        Me.OdalarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.OdalarToolStripMenuItem.Text = "Odalar"
         '
         'EkleToolStripMenuItem
@@ -166,6 +166,12 @@ Partial Class Form1
         Me.OdaEkleToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.OdaEkleToolStripMenuItem.Text = "Oda Ekle"
         '
+        'AyarlarToolStripMenuItem
+        '
+        Me.AyarlarToolStripMenuItem.Name = "AyarlarToolStripMenuItem"
+        Me.AyarlarToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
+        Me.AyarlarToolStripMenuItem.Text = "Ayarlar"
+        '
         'ÇıkışlToolStripMenuItem
         '
         Me.ÇıkışlToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HesaptanÇıkışYapToolStripMenuItem, Me.ProgramıKapatToolStripMenuItem})
@@ -176,20 +182,14 @@ Partial Class Form1
         'HesaptanÇıkışYapToolStripMenuItem
         '
         Me.HesaptanÇıkışYapToolStripMenuItem.Name = "HesaptanÇıkışYapToolStripMenuItem"
-        Me.HesaptanÇıkışYapToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HesaptanÇıkışYapToolStripMenuItem.Size = New System.Drawing.Size(174, 22)
         Me.HesaptanÇıkışYapToolStripMenuItem.Text = "Hesaptan Çıkış Yap"
         '
         'ProgramıKapatToolStripMenuItem
         '
         Me.ProgramıKapatToolStripMenuItem.Name = "ProgramıKapatToolStripMenuItem"
-        Me.ProgramıKapatToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProgramıKapatToolStripMenuItem.Size = New System.Drawing.Size(174, 22)
         Me.ProgramıKapatToolStripMenuItem.Text = "Programı Kapat"
-        '
-        'AyarlarToolStripMenuItem
-        '
-        Me.AyarlarToolStripMenuItem.Name = "AyarlarToolStripMenuItem"
-        Me.AyarlarToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
-        Me.AyarlarToolStripMenuItem.Text = "Ayarlar"
         '
         'Label2
         '

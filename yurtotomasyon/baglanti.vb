@@ -5,6 +5,7 @@ Public Class Class1
     Dim baglanti As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source='yurtotomasyonu.mdb'")
     Dim command As New OleDbCommand()
     Dim adapter As New OleDbDataAdapter
+    Dim table As New DataTable
     Dim data As OleDbDataReader
 
 
@@ -93,5 +94,11 @@ Public Class Class1
         data = command.ExecuteReader()
         Dim kullaniciadi As String
         Return kullaniciadi
+    End Function
+
+    Public Function getOgrenciler() As DataTable
+        adapter = New OleDbDataAdapter("select * from ogrenciler", baglanti)
+        adapter.Fill(table)
+        Return table
     End Function
 End Class
