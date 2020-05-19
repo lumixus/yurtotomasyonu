@@ -50,4 +50,8 @@
     Private Sub ÖdemelerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÖdemelerToolStripMenuItem.Click
         odemeler.Show()
     End Sub
+
+    Private Sub GörevlerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GörevlerToolStripMenuItem.Click
+        gorevler.Show()
+    End Sub
 End Class

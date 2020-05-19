@@ -95,10 +95,10 @@
       <DependentUpon>giris.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="gorevlerrr.Designer.vb">
-      <DependentUpon>gorevlerrr.vb</DependentUpon>
+    <Compile Include="gorevler.Designer.vb">
+      <DependentUpon>gorevler.vb</DependentUpon>
     </Compile>
-    <Compile Include="gorevlerrr.vb">
+    <Compile Include="gorevler.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -157,8 +157,8 @@
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="gorevlerrr.resx">
-      <DependentUpon>gorevlerrr.vb</DependentUpon>
+    <EmbeddedResource Include="gorevler.resx">
+      <DependentUpon>gorevler.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
