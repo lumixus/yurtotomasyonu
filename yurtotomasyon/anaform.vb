@@ -66,4 +66,8 @@
     Private Sub GörevEkleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GörevEkleToolStripMenuItem.Click
         gorevekle.Show()
     End Sub
+
+    Private Sub OdaEkleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OdaEkleToolStripMenuItem.Click
+        odaekle.Show()
+    End Sub
 End Class

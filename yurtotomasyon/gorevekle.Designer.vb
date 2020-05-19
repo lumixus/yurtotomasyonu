@@ -30,11 +30,10 @@ Partial Class gorevekle
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(195, 88)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox8.Location = New System.Drawing.Point(146, 72)
         Me.TextBox8.MaxLength = 30
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(132, 22)
+        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 25
         '
         'Button2
@@ -43,10 +42,9 @@ Partial Class gorevekle
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(595, 72)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(446, 58)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(141, 49)
+        Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 24
         Me.Button2.Text = "TEMİZLE"
         Me.Button2.UseVisualStyleBackColor = False
@@ -57,10 +55,9 @@ Partial Class gorevekle
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(376, 72)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Location = New System.Drawing.Point(282, 58)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(141, 49)
+        Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 23
         Me.Button1.Text = "EKLE"
         Me.Button1.UseVisualStyleBackColor = False
@@ -71,25 +68,25 @@ Partial Class gorevekle
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(62, 85)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(46, 69)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(115, 23)
+        Me.Label2.Size = New System.Drawing.Size(91, 19)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Görev Adı:"
         '
         'gorevekle
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(800, 162)
+        Me.ClientSize = New System.Drawing.Size(600, 132)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "gorevekle"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Görev Ekle"
         Me.ResumeLayout(False)
         Me.PerformLayout()

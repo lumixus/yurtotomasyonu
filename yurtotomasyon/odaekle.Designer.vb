@@ -133,6 +133,7 @@ Partial Class odaekle
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "odaekle"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "odaekle"
         Me.ResumeLayout(False)
         Me.PerformLayout()
