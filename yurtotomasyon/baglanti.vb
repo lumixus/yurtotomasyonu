@@ -101,4 +101,19 @@ Public Class Class1
         adapter.Fill(table)
         Return table
     End Function
+    Public Function getPersoneller() As DataTable
+        adapter = New OleDbDataAdapter("select * from personeller", baglanti)
+        adapter.Fill(table)
+        Return table
+    End Function
+    Public Function getOdalar() As DataTable
+        adapter = New OleDbDataAdapter("select * from odalar", baglanti)
+        adapter.Fill(table)
+        Return table
+    End Function
+    Public Function getGorevler() As DataTable
+        adapter = New OleDbDataAdapter("select * from gorevler", baglanti)
+        adapter.Fill(table)
+        Return table
+    End Function
 End Class
