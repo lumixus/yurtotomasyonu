@@ -76,6 +76,7 @@ Partial Class ayarlar
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "ayarlar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ayarlar"
         Me.ResumeLayout(False)
         Me.PerformLayout()
