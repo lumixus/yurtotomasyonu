@@ -110,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="odemeler.Designer.vb">
+      <DependentUpon>odemeler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="odemeler.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ogrenciekle.Designer.vb">
       <DependentUpon>ogrenciekle.vb</DependentUpon>
     </Compile>
@@ -138,6 +144,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odemeler.resx">
+      <DependentUpon>odemeler.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciekle.resx">
       <DependentUpon>ogrenciekle.vb</DependentUpon>
