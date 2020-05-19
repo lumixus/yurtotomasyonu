@@ -463,6 +463,7 @@ Partial Class ogrenciler
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label9)
         Me.Name = "ogrenciler"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ogrenciler"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

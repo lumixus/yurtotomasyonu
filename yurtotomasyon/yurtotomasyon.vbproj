@@ -110,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="odalar.Designer.vb">
+      <DependentUpon>odalar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="odalar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="odemeler.Designer.vb">
       <DependentUpon>odemeler.vb</DependentUpon>
     </Compile>
@@ -153,6 +159,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odalar.resx">
+      <DependentUpon>odalar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="odemeler.resx">
       <DependentUpon>odemeler.vb</DependentUpon>

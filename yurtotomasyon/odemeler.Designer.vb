@@ -192,7 +192,7 @@ Partial Class odemeler
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1231, 405)
+        Me.ClientSize = New System.Drawing.Size(1136, 405)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox5)
@@ -209,6 +209,7 @@ Partial Class odemeler
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "odemeler"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Ödemeler"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

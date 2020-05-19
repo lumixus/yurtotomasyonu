@@ -40,10 +40,14 @@
     End Sub
 
     Private Sub ÖğrencilerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÖğrencilerToolStripMenuItem.Click
-        ogrenciler.Show()
+        Ogrenciler.Show()
     End Sub
 
     Private Sub PersonellerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonellerToolStripMenuItem.Click
         personeller.Show()
+    End Sub
+
+    Private Sub ÖdemelerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÖdemelerToolStripMenuItem.Click
+        odemeler.Show()
     End Sub
 End Class
