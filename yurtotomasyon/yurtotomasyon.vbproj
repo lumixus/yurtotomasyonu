@@ -95,15 +95,18 @@
       <DependentUpon>giris.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-
-
+    <Compile Include="gorevekle.Designer.vb">
+      <DependentUpon>gorevekle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gorevekle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="gorevler.Designer.vb">
       <DependentUpon>gorevler.vb</DependentUpon>
     </Compile>
     <Compile Include="gorevler.vb">
       <SubType>Form</SubType>
     </Compile>
-
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -166,11 +169,12 @@
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.vb</DependentUpon>
     </EmbeddedResource>
-
+    <EmbeddedResource Include="gorevekle.resx">
+      <DependentUpon>gorevekle.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gorevler.resx">
       <DependentUpon>gorevler.vb</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
