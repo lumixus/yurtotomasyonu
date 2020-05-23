@@ -122,8 +122,33 @@ Public Class Class1
         adapter.Fill(table)
         Return table
     End Function
-
-
+    Public Sub addOgrenci(ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, harcyatirdimi As Boolean, bursdurumu As String, dtarih As DateTime)
+        command.CommandText = "INSERT INTO ogrenciler (ad,soyad,tc,telno,mail,bolum,okul,ogrenimturu,odanumarasi,gunceldonem,harcyatirdimi,bursdurumu,dtarih,ktarih) values (@ad,@soyad,@tc,@telno,@mail,@bolum,@okul,@ogrenimturu,@odanumarasi,@gunceldonem,@harcyatirdimi,@bursdurumu,@dtarih,@ktarih)"
+        command.Connection = baglanti
+        command.Parameters.AddWithValue("@ad", ad)
+        command.Parameters.AddWithValue("@soyad", soyad)
+        command.Parameters.AddWithValue("@tc", tc)
+        command.Parameters.AddWithValue("@telno", telno)
+        command.Parameters.AddWithValue("@mail", mail)
+        command.Parameters.AddWithValue("@bolum", bolum)
+        command.Parameters.AddWithValue("@okul", okul)
+        command.Parameters.AddWithValue("@ogrenimturu", ogrenimturu)
+        command.Parameters.AddWithValue("@odanumarasi", odanumarasi)
+        command.Parameters.AddWithValue("@gunceldonem", gunceldonem)
+        command.Parameters.AddWithValue("@harcyatirdimi", harcyatirdimi)
+        command.Parameters.AddWithValue("@bursdurumu", bursdurumu)
+        command.Parameters.AddWithValue("@dtarih", dtarih)
+        command.Parameters.AddWithValue("@ktarih", DateTime.Today)
+        command.ExecuteNonQuery()
+        MsgBox("Öğrenci Eklendi")
+    End Sub
+    Public Sub addGorevler(gorevadi As String)
+        command.CommandText = "INSERT INTO gorevler (gorevad) values (@gorevadi)"
+        command.Connection = baglanti
+        command.Parameters.AddWithValue("@gorevadi", gorevadi)
+        command.ExecuteNonQuery()
+        MsgBox("Görev Eklendi")
+    End Sub
 
 End Class
 
