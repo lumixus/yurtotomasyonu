@@ -116,4 +116,13 @@ Public Class Class1
         adapter.Fill(table)
         Return table
     End Function
+    Public Function getOdemeler()
+        adapter = New OleDbDataAdapter("select * from sonodemeler", baglanti)
+        adapter.Fill(table)
+        Return table
+    End Function
+
+
+
 End Class
+
