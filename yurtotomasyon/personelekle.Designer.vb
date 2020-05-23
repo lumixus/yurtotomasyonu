@@ -49,9 +49,11 @@ Partial Class personelekle
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(383, 110)
+        Me.GroupBox1.Location = New System.Drawing.Point(511, 135)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(155, 46)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(207, 57)
         Me.GroupBox1.TabIndex = 38
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Seçim"
@@ -60,9 +62,10 @@ Partial Class personelekle
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.RadioButton2.Location = New System.Drawing.Point(76, 19)
+        Me.RadioButton2.Location = New System.Drawing.Point(101, 23)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(52, 17)
+        Me.RadioButton2.Size = New System.Drawing.Size(65, 21)
         Me.RadioButton2.TabIndex = 24
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Kadın"
@@ -72,9 +75,10 @@ Partial Class personelekle
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton1.Location = New System.Drawing.Point(8, 23)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(53, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(65, 21)
         Me.RadioButton1.TabIndex = 23
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Erkek"
@@ -82,50 +86,56 @@ Partial Class personelekle
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(411, 70)
+        Me.TextBox6.Location = New System.Drawing.Point(548, 86)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox6.MaxLength = 50
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(132, 22)
         Me.TextBox6.TabIndex = 37
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(411, 30)
+        Me.TextBox5.Location = New System.Drawing.Point(548, 37)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox5.MaxLength = 11
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(132, 22)
         Me.TextBox5.TabIndex = 36
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(130, 148)
+        Me.TextBox4.Location = New System.Drawing.Point(173, 182)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox4.MaxLength = 11
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(132, 22)
         Me.TextBox4.TabIndex = 35
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(130, 110)
+        Me.TextBox3.Location = New System.Drawing.Point(173, 135)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(132, 22)
         Me.TextBox3.TabIndex = 34
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(130, 71)
+        Me.TextBox2.Location = New System.Drawing.Point(173, 87)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.MaxLength = 25
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(132, 22)
         Me.TextBox2.TabIndex = 33
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(130, 31)
+        Me.TextBox1.Location = New System.Drawing.Point(173, 38)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.MaxLength = 25
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(132, 22)
         Me.TextBox1.TabIndex = 32
         '
         'Label9
@@ -134,9 +144,10 @@ Partial Class personelekle
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Location = New System.Drawing.Point(270, 111)
+        Me.Label9.Location = New System.Drawing.Point(360, 137)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(72, 19)
+        Me.Label9.Size = New System.Drawing.Size(94, 23)
         Me.Label9.TabIndex = 31
         Me.Label9.Text = "Cinsiyet:"
         '
@@ -146,9 +157,10 @@ Partial Class personelekle
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(286, 67)
+        Me.Label6.Location = New System.Drawing.Point(381, 82)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(56, 19)
+        Me.Label6.Size = New System.Drawing.Size(68, 23)
         Me.Label6.TabIndex = 30
         Me.Label6.Text = "Email:"
         '
@@ -158,9 +170,10 @@ Partial Class personelekle
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(286, 27)
+        Me.Label5.Location = New System.Drawing.Point(381, 33)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(64, 19)
+        Me.Label5.Size = New System.Drawing.Size(81, 23)
         Me.Label5.TabIndex = 29
         Me.Label5.Text = "Görevi:"
         '
@@ -170,9 +183,10 @@ Partial Class personelekle
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(5, 145)
+        Me.Label4.Location = New System.Drawing.Point(7, 178)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(60, 19)
+        Me.Label4.Size = New System.Drawing.Size(76, 23)
         Me.Label4.TabIndex = 28
         Me.Label4.Text = "Tel No:"
         '
@@ -182,9 +196,10 @@ Partial Class personelekle
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(5, 110)
+        Me.Label3.Location = New System.Drawing.Point(7, 135)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(36, 19)
+        Me.Label3.Size = New System.Drawing.Size(46, 23)
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "T.C:"
         '
@@ -194,9 +209,10 @@ Partial Class personelekle
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(5, 71)
+        Me.Label2.Location = New System.Drawing.Point(7, 87)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 19)
+        Me.Label2.Size = New System.Drawing.Size(82, 23)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Soyadı:"
         '
@@ -206,9 +222,10 @@ Partial Class personelekle
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(5, 28)
+        Me.Label1.Location = New System.Drawing.Point(7, 34)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 19)
+        Me.Label1.Size = New System.Drawing.Size(49, 23)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "Adı:"
         '
@@ -218,9 +235,10 @@ Partial Class personelekle
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(381, 189)
+        Me.Button2.Location = New System.Drawing.Point(508, 233)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(106, 40)
+        Me.Button2.Size = New System.Drawing.Size(141, 49)
         Me.Button2.TabIndex = 40
         Me.Button2.Text = "TEMİZLE"
         Me.Button2.UseVisualStyleBackColor = False
@@ -231,19 +249,20 @@ Partial Class personelekle
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(117, 189)
+        Me.Button1.Location = New System.Drawing.Point(156, 233)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(106, 40)
+        Me.Button1.Size = New System.Drawing.Size(141, 49)
         Me.Button1.TabIndex = 39
         Me.Button1.Text = "EKLE"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'personelekle
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(571, 289)
+        Me.ClientSize = New System.Drawing.Size(761, 356)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox1)
@@ -260,6 +279,7 @@ Partial Class personelekle
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "personelekle"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "personelekle"
