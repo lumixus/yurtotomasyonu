@@ -9,7 +9,7 @@
 
 
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
-        For i As Integer = 0 To DataGridView1.Columns.Count
+        For i As Integer = 0 To DataGridView1.Columns.Count - 1
             If IsDBNull(DataGridView1.CurrentRow.Cells(i).Value) Then
                 isNull = True
                 Exit For
