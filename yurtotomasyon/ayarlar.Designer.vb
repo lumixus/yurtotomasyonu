@@ -26,6 +26,8 @@ Partial Class ayarlar
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -59,23 +61,44 @@ Partial Class ayarlar
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Button1.Location = New System.Drawing.Point(55, 256)
+        Me.Button1.Location = New System.Drawing.Point(55, 276)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(164, 43)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Kaydet"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label3.Location = New System.Drawing.Point(313, 116)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(267, 24)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Maksimum Öğrenci Sayısı"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(370, 171)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(147, 31)
+        Me.TextBox2.TabIndex = 4
+        '
         'ayarlar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "ayarlar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ayarlar"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -86,4 +109,6 @@ Partial Class ayarlar
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
 End Class

@@ -15,7 +15,6 @@ Public Class giris
 
         If con.userControl(username, password) = True Then
 
-            MsgBox("Doğru girdiniz")
             anaform = Form1
             anaform.Show()
             Hide()

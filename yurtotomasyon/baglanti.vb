@@ -34,10 +34,11 @@ Public Class Class1
 
 
 
-    Public Sub updateSettings(toplamoda As Integer)
-        command.CommandText = "UPDATE ayarlar SET toplamoda= @toplamoda WHERE id=1"
+    Public Sub updateSettings(toplamoda As Integer, maxogrenci As Integer)
+        command.CommandText = "UPDATE ayarlar SET toplamoda= @toplamoda , maxogrenci = @maxogrenci WHERE id=1"
         command.Connection = baglanti
         command.Parameters.AddWithValue("@toplamoda", toplamoda)
+        command.Parameters.AddWithValue("@maxogrenci", maxogrenci)
         command.ExecuteNonQuery()
         MessageBox.Show("Ayarlar Güncellendi")
     End Sub
