@@ -6,6 +6,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim burs As String
+        DateTimePicker1.Value = DateTime.Today
         If RadioButton4.Checked Then
             burs = RadioButton4.Text
         ElseIf RadioButton3.checked Then
