@@ -8,14 +8,14 @@
     End Sub
 
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
-
-        For i = 0 To DataGridView1.Columns.Count
+        For i As Integer = 0 To DataGridView1.Columns.Count
             If IsDBNull(DataGridView1.CurrentRow.Cells(i).Value) Then
                 isNull = True
+                Exit For
             Else
                 isNull = False
             End If
-            i = i + 1
+
         Next
         If isNull Then
             MessageBox.Show("Dolu olan bir satır seçilmelidir !")
