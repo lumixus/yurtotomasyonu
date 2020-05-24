@@ -201,7 +201,15 @@ Public Class Class1
         command.Parameters.AddWithValue("@bursdurumu", bursdurumu)
         command.Parameters.AddWithValue("@dtarih", dtarih)
         command.ExecuteNonQuery()
-        MsgBox("Öğrenci Eklendi")
+        MsgBox("Öğrenci Güncellendi")
+    End Sub
+    Public Sub updateGorevler(id As String, ad As String)
+        command.CommandText = "UPDATE gorevler SET gorevad = @ad, WHERE id = @id"
+        command.Connection = baglanti
+        command.Parameters.AddWithValue("@id", id)
+        command.Parameters.AddWithValue("@gorevad", ad)
+        command.ExecuteNonQuery()
+        MsgBox("Görev Güncellendi")
     End Sub
 End Class
 
