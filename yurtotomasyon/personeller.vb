@@ -34,7 +34,7 @@
 
 
         Dim cinsiyet As String
-        Dim id, ad, soyad, tc, cinsyet, telno, gorevid, mail As String
+        Dim id, ad, soyad, tc, telno, gorevid, mail As String
         DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
         DataGridView1.CurrentRow.Cells(1).Value = TextBox2.Text
         DataGridView1.CurrentRow.Cells(2).Value = TextBox4.Text
@@ -53,7 +53,7 @@
         mail = DataGridView1.CurrentRow.Cells(7).Value.ToString()
 
         con.openCon()
-        ' con.updatepersoneller(id, ad, soyad, tc, telno, gorevid, mail)
+        con.updatepersoneller(id, ad, soyad, tc, telno, gorevid, mail)
         Dim dtable As DataTable = con.getPersoneller()
         dtable.Clear()
         DataGridView1.DataSource = dtable
