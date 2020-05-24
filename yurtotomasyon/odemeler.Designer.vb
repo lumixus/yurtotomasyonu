@@ -38,16 +38,18 @@ Partial Class odemeler
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 56)
+        Me.DataGridView1.Location = New System.Drawing.Point(16, 69)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(652, 308)
+        Me.DataGridView1.Size = New System.Drawing.Size(869, 379)
         Me.DataGridView1.TabIndex = 17
         '
         'Label9
@@ -56,46 +58,52 @@ Partial Class odemeler
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(12, 9)
+        Me.Label9.Location = New System.Drawing.Point(16, 11)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(202, 44)
+        Me.Label9.Size = New System.Drawing.Size(261, 57)
         Me.Label9.TabIndex = 18
         Me.Label9.Text = "Ödemeler"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(686, 313)
+        Me.TextBox5.Location = New System.Drawing.Point(915, 385)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(132, 22)
         Me.TextBox5.TabIndex = 47
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(686, 204)
+        Me.TextBox4.Location = New System.Drawing.Point(915, 251)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(132, 22)
         Me.TextBox4.TabIndex = 45
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(862, 204)
+        Me.TextBox3.Location = New System.Drawing.Point(1149, 251)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(132, 22)
         Me.TextBox3.TabIndex = 46
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(862, 108)
+        Me.TextBox2.Location = New System.Drawing.Point(1149, 133)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(132, 22)
         Me.TextBox2.TabIndex = 44
         '
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(686, 108)
+        Me.TextBox1.Location = New System.Drawing.Point(915, 133)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(132, 22)
         Me.TextBox1.TabIndex = 43
         '
         'Label6
@@ -104,9 +112,10 @@ Partial Class odemeler
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(962, 156)
+        Me.Label6.Location = New System.Drawing.Point(1283, 192)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(0, 24)
+        Me.Label6.Size = New System.Drawing.Size(0, 33)
         Me.Label6.TabIndex = 42
         '
         'Label5
@@ -115,9 +124,10 @@ Partial Class odemeler
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(682, 265)
+        Me.Label5.Location = New System.Drawing.Point(909, 326)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(134, 24)
+        Me.Label5.Size = New System.Drawing.Size(177, 33)
         Me.Label5.TabIndex = 41
         Me.Label5.Text = "Kalan Miktar"
         '
@@ -127,9 +137,10 @@ Partial Class odemeler
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(858, 156)
+        Me.Label4.Location = New System.Drawing.Point(1144, 192)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(188, 24)
+        Me.Label4.Size = New System.Drawing.Size(246, 33)
         Me.Label4.TabIndex = 40
         Me.Label4.Text = "Ödenecek Miktar"
         '
@@ -139,9 +150,10 @@ Partial Class odemeler
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(682, 156)
+        Me.Label3.Location = New System.Drawing.Point(909, 192)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(162, 24)
+        Me.Label3.Size = New System.Drawing.Size(213, 33)
         Me.Label3.TabIndex = 39
         Me.Label3.Text = "Ödenen Miktar"
         '
@@ -151,9 +163,10 @@ Partial Class odemeler
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(858, 56)
+        Me.Label2.Location = New System.Drawing.Point(1144, 69)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 24)
+        Me.Label2.Size = New System.Drawing.Size(154, 33)
         Me.Label2.TabIndex = 38
         Me.Label2.Text = "Öğrenci ID"
         '
@@ -163,9 +176,10 @@ Partial Class odemeler
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(682, 56)
+        Me.Label1.Location = New System.Drawing.Point(909, 69)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(31, 24)
+        Me.Label1.Size = New System.Drawing.Size(41, 33)
         Me.Label1.TabIndex = 37
         Me.Label1.Text = "ID"
         '
@@ -175,17 +189,19 @@ Partial Class odemeler
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(858, 265)
+        Me.Label8.Location = New System.Drawing.Point(1144, 326)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(36, 24)
+        Me.Label8.Size = New System.Drawing.Size(49, 33)
         Me.Label8.TabIndex = 49
         Me.Label8.Text = "Ay"
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(862, 310)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(1149, 382)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(265, 22)
         Me.DateTimePicker2.TabIndex = 50
         '
         'Button2
@@ -194,19 +210,35 @@ Partial Class odemeler
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(1075, 353)
+        Me.Button2.Location = New System.Drawing.Point(1433, 434)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(106, 40)
+        Me.Button2.Size = New System.Drawing.Size(141, 49)
         Me.Button2.TabIndex = 52
         Me.Button2.Text = "GÜNCELLE"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.AutoEllipsis = True
+        Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(1202, 434)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(141, 49)
+        Me.Button1.TabIndex = 53
+        Me.Button1.Text = "SİL"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'odemeler
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1231, 405)
+        Me.ClientSize = New System.Drawing.Size(1641, 498)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Label8)
@@ -223,6 +255,7 @@ Partial Class odemeler
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "odemeler"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Ödemeler"
@@ -248,4 +281,5 @@ Partial Class odemeler
     Friend WithEvents Label8 As Label
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class
