@@ -116,4 +116,14 @@
     Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs) Handles ComboBox2.DropDown
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        con.openCon()
+        con.deleteVeri("ogrenciler", CStr(DataGridView1.CurrentRow.Cells(0).Value))
+        Dim dtable As DataTable = con.getOgrenciler()
+        dtable.Clear()
+        DataGridView1.DataSource = dtable
+        DataGridView1.DataSource = con.getOgrenciler()
+        con.closeCon()
+    End Sub
 End Class

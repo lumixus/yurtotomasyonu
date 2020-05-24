@@ -58,6 +58,7 @@ Partial Class Ogrenciler
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -435,12 +436,26 @@ Partial Class Ogrenciler
         Me.Button2.Text = "GÜNCELLE"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.AutoEllipsis = True
+        Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(976, 598)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(179, 86)
+        Me.Button1.TabIndex = 53
+        Me.Button1.Text = "SİL"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Ogrenciler
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
         Me.ClientSize = New System.Drawing.Size(1167, 862)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.DateTimePicker2)
@@ -522,4 +537,5 @@ Partial Class Ogrenciler
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class
