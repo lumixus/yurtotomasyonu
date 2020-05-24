@@ -155,15 +155,8 @@ Public Class Class1
         MsgBox("Oda Eklendi")
     End Sub
     Public Sub addPersonel(ad As String, soyad As String, tc As String, telno As String, gorevid As String, mail As String, cinsiyet As String)
-        command.CommandText = "INSERT INTO personeller (ad,soyad,tc,cinsiyet,telno,gorevid,mail) values (@ad,@soyad,@tc,@cinsiyet,@telno,@gorevid,@mail)"
+        command.CommandText = "INSERT INTO personeller (ad,soyad,tc,cinsiyet,telno,gorevid,mail) values '" + ad + "','" + soyad + "','" + tc + "','" + telno + "','" + gorevid + "','" + mail + "','" + cinsiyet + "')"
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@ad", ad)
-        command.Parameters.AddWithValue("@soyad", soyad)
-        command.Parameters.AddWithValue("@tc", tc)
-        command.Parameters.AddWithValue("@cinsiyet", cinsiyet)
-        command.Parameters.AddWithValue("@telno", telno)
-        command.Parameters.AddWithValue("@gorevid", gorevid)
-        command.Parameters.AddWithValue("@mail", mail)
         command.ExecuteNonQuery()
         MsgBox("Personel Eklendi")
     End Sub
