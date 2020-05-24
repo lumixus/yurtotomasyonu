@@ -203,7 +203,7 @@ Public Class Class1
         MsgBox("Öğrenci Güncellendi")
     End Sub
     Public Sub updateOdalar(id As String, odan As String, gosay As String, yatsay As String)
-        command.CommandText = "UPDATE odalar SET odanumarasi = @odan , guncelogrencisayisi=@gosay, yataksayisi = @yatsay WHERE id = " + id
+        command.CommandText = "UPDATE odalar SET odanumarasi =  '" + odan + "' , guncelogrencisayisi='" + gosay + "', yataksayisi ='" + yatsay + "' WHERE id = " + id
         command.Connection = baglanti
         command.Parameters.AddWithValue("@odan", odan)
         command.Parameters.AddWithValue("@gosay", gosay)
