@@ -147,10 +147,8 @@ Public Class Class1
         MsgBox("Görev Eklendi")
     End Sub
     Public Sub addOda(odanum As String, yatsay As String)
-        command.CommandText = "INSERT INTO odalar (odanumarasi,guncelogrencisayisi,yataksayisi) values ('" + odanum + "','" + 0 + "','" + yatsay + "')"
+        command.CommandText = "INSERT INTO odalar (odanumarasi,guncelogrencisayisi,yataksayisi) values ('" + odanum + "','0','" + yatsay + "')"
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@odanum", odanum)
-        command.Parameters.AddWithValue("@yatsay", yatsay)
         command.ExecuteNonQuery()
         MsgBox("Oda Eklendi")
     End Sub
