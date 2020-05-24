@@ -202,5 +202,14 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("Öğrenci Güncellendi")
     End Sub
+    Public Sub updateOdalar(id As String, odan As String, gosay As String, yatsay As String)
+        command.CommandText = "UPDATE odalar SET odanumarasi = @odan , guncelogrencisayisi=@gosay, yataksayisi = @yatsay WHERE id = " + id
+        command.Connection = baglanti
+        command.Parameters.AddWithValue("@odan", odan)
+        command.Parameters.AddWithValue("@gosay", gosay)
+        command.Parameters.AddWithValue("@yatsay", yatsay)
+        command.ExecuteNonQuery()
+        MsgBox("Oda Güncellendi")
+    End Sub
 End Class
 

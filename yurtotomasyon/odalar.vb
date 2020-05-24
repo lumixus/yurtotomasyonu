@@ -38,4 +38,24 @@
         con.closeCon()
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim id, odan, gosay, yatsay As String
+
+        DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
+        DataGridView1.CurrentRow.Cells(1).Value = TextBox2.Text
+        DataGridView1.CurrentRow.Cells(2).Value = TextBox4.Text
+        DataGridView1.CurrentRow.Cells(3).Value = TextBox5.Text
+        id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
+        odan = DataGridView1.CurrentRow.Cells(1).Value.ToString()
+        gosay = DataGridView1.CurrentRow.Cells(2).Value.ToString()
+        yatsay = DataGridView1.CurrentRow.Cells(3).Value.ToString()
+        con.openCon()
+        con.updateOdalar(id, odan, gosay, yatsay)
+        Dim dtable As DataTable = con.getOdalar()
+        dtable.Clear()
+        DataGridView1.DataSource = dtable
+        DataGridView1.DataSource = con.getOdalar()
+        con.closeCon()
+    End Sub
 End Class
