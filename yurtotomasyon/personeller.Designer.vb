@@ -42,6 +42,7 @@ Partial Class personeller
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -49,7 +50,7 @@ Partial Class personeller
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(20, 89)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(646, 289)
@@ -219,7 +220,7 @@ Partial Class personeller
         Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.RadioButton1.Location = New System.Drawing.Point(746, 340)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(67, 24)
         Me.RadioButton1.TabIndex = 53
@@ -234,7 +235,7 @@ Partial Class personeller
         Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.RadioButton2.Location = New System.Drawing.Point(746, 379)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(68, 24)
         Me.RadioButton2.TabIndex = 54
@@ -255,12 +256,26 @@ Partial Class personeller
         Me.Button2.Text = "GÜNCELLE"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.AutoEllipsis = True
+        Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(978, 528)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(106, 40)
+        Me.Button1.TabIndex = 56
+        Me.Button1.Text = "SİL"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'personeller
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
         Me.ClientSize = New System.Drawing.Size(1183, 580)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
@@ -281,7 +296,7 @@ Partial Class personeller
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "personeller"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "personeller"
@@ -311,4 +326,5 @@ Partial Class personeller
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class
