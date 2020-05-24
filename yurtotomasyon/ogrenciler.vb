@@ -16,7 +16,6 @@
         If isNull Then
             MessageBox.Show("Dolu olan bir satır seçilmelidir !")
         Else
-            MsgBox("BURADA")
             Button2.Enabled = True
             TextBox1.Text = DataGridView1.CurrentRow.Cells(0).Value.ToString()
             TextBox2.Text = DataGridView1.CurrentRow.Cells(1).Value.ToString()
@@ -40,7 +39,7 @@
                 RadioButton3.Checked = False
                 RadioButton4.Checked = False
             End If
-            TextBox9.Text = DataGridView1.CurrentRow.Cells(10).ToString()
+            TextBox9.Text = DataGridView1.CurrentRow.Cells(10).Value.ToString()
             DateTimePicker1.Value = DataGridView1.CurrentRow.Cells(13).Value.ToString()
             DateTimePicker2.Value = DataGridView1.CurrentRow.Cells(14).Value.ToString()
             CheckBox1.Text = DataGridView1.CurrentRow.Cells(11).Value.ToString()
@@ -89,37 +88,23 @@
         tc = DataGridView1.CurrentRow.Cells(3).Value.ToString()
         tel = DataGridView1.CurrentRow.Cells(4).Value.ToString()
         mail = DataGridView1.CurrentRow.Cells(5).Value.ToString()
-        ogrturu = DataGridView1.CurrentRow.Cells(6).Value.ToString()
-        bolum = DataGridView1.CurrentRow.Cells(7).Value.ToString()
-        okul = DataGridView1.CurrentRow.Cells(8).Value.ToString()
+        ogrturu = DataGridView1.CurrentRow.Cells(8).Value.ToString()
+        bolum = DataGridView1.CurrentRow.Cells(6).Value.ToString()
+        okul = DataGridView1.CurrentRow.Cells(7).Value.ToString()
         odanumarasi = DataGridView1.CurrentRow.Cells(9).Value.ToString()
         gunceldonem = DataGridView1.CurrentRow.Cells(10).Value.ToString()
-
-        test = DataGridView1.CurrentRow.Cells(11).Value
-        tarih = DataGridView1.CurrentRow.Cells(13).Value.ToString()
+        test = DataGridView1.CurrentRow.Cells(11).Value.ToString()
+        tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(13).Value.ToString())
         con.openCon()
         con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, test, DataGridView1.CurrentRow.Cells(12).Value.ToString(), tarih)
         Dim dtable As DataTable = con.getOgrenciler()
         dtable.Clear()
-        MsgBox(TextBox1.Text)
         DataGridView1.DataSource = dtable
         DataGridView1.DataSource = con.getOgrenciler()
         con.closeCon()
 
     End Sub
 
-    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComboBox1.DropDown
-        If isAdded = False Then
-            ComboBox2.Items.Clear()
-            ComboBox2.ResetText()
-            con.openCon()
-            For Each row As DataRow In con.getBosOdalar().Rows
-                ComboBox2.Items.Add(row.Item("odanumarasi"))
-            Next row
-            con.closeCon()
-            isAdded = True
-        End If
-    End Sub
 
     Private Sub Ogrenciler_Shown(sender As Object, e As EventArgs) Handles MyBase.Shown
         con.openCon()
@@ -128,4 +113,7 @@
         Button2.Enabled = False
     End Sub
 
+    Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs) Handles ComboBox2.DropDown
+
+    End Sub
 End Class
