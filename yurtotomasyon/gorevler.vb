@@ -39,15 +39,15 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim burs As String
-        Dim id, ad, soyad, tc, tel, mail, ogrturu, bolum, okul, odanumarasi, gunceldonem As String
-        id = TextBox1.Text
-        ad = TextBox4.Text
+        Dim id, ad As String
+        DataGridView1.CurrentRow.Cells(1).Value = TextBox4.Text
+        DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
+        id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
+        ad = DataGridView1.CurrentRow.Cells(1).Value.ToString()
         con.openCon()
-        'con.updateGorevler(id, ad)
+        con.updateGorevler(id, ad)
         Dim dtable As DataTable = con.getOgrenciler()
         dtable.Clear()
-        MsgBox(TextBox1.Text)
         DataGridView1.DataSource = dtable
         DataGridView1.DataSource = con.getOgrenciler()
         con.closeCon()
