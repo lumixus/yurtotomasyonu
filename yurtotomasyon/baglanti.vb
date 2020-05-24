@@ -170,6 +170,10 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("Personel Eklendi")
     End Sub
-
+    Public Function getBosOdalar() As DataTable
+        adapter = New OleDbDataAdapter("select * from odalar WHERE guncelogrencisayisi < yataksayisi", baglanti)
+        adapter.Fill(table)
+        Return table
+    End Function
 End Class
 

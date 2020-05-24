@@ -1,5 +1,6 @@
 ﻿Public Class ogrenciekle
     Dim con As New Class1
+    Dim isAdded As Boolean = False
     Private Sub ogrenciekle_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -27,5 +28,19 @@
         con.openCon()
         con.addOgrenci(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox6.Text, TextBox7.Text, TextBox8.Text, ogtur, ComboBox1.Text, TextBox10.Text, CheckBox1.Checked, burs, DateTimePicker1.Value)
         con.closeCon()
+    End Sub
+
+    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComboBox1.DropDown
+
+        If isAdded = False Then
+            ComboBox1.Items.Clear()
+        ComboBox1.ResetText()
+        con.openCon()
+        For Each row As DataRow In con.getBosOdalar().Rows
+            ComboBox1.Items.Add(row.Item("odanumarasi"))
+        Next row
+        con.closeCon()
+            isAdded = True
+        End If
     End Sub
 End Class
