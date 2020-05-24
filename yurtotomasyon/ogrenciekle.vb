@@ -53,7 +53,7 @@
         TextBox6.Clear()
         TextBox7.Clear()
         TextBox8.Clear()
-        RadioButton1.Checked = False
+        ' RadioButton1.Checked = False
         RadioButton2.Checked = False
         RadioButton3.Checked = False
         RadioButton4.Checked = False
