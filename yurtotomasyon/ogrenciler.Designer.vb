@@ -428,7 +428,7 @@ Partial Class Ogrenciler
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(956, 598)
+        Me.Button2.Location = New System.Drawing.Point(772, 598)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(179, 86)
         Me.Button2.TabIndex = 52

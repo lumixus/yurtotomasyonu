@@ -175,5 +175,13 @@ Public Class Class1
         adapter.Fill(table)
         Return table
     End Function
+
+    Public Sub deleteVeri(tabloadi As String, id As String)
+        command.CommandText = "DELETE FROM " + tabloadi + " WHERE id = @id"
+        command.Connection = baglanti
+        command.Parameters.AddWithValue("@id", id)
+        command.ExecuteNonQuery()
+        MsgBox("Veri Silindi")
+    End Sub
 End Class
 

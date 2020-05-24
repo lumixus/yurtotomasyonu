@@ -33,6 +33,7 @@ Partial Class Odalar
         Me.Label9 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -140,12 +141,25 @@ Partial Class Odalar
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(860, 335)
+        Me.Button2.Location = New System.Drawing.Point(742, 335)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 67
         Me.Button2.Text = "GÜNCELLE"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.AutoEllipsis = True
+        Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(971, 335)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(106, 40)
+        Me.Button1.TabIndex = 68
+        Me.Button1.Text = "SİL"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Odalar
         '
@@ -153,6 +167,7 @@ Partial Class Odalar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
         Me.ClientSize = New System.Drawing.Size(1126, 460)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
@@ -185,4 +200,5 @@ Partial Class Odalar
     Friend WithEvents Label9 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class
