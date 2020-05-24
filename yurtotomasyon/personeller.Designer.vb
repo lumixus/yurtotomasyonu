@@ -38,9 +38,6 @@ Partial Class personeller
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -109,7 +106,7 @@ Partial Class personeller
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(983, 402)
+        Me.Label6.Location = New System.Drawing.Point(774, 400)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(51, 24)
         Me.Label6.TabIndex = 42
@@ -177,14 +174,14 @@ Partial Class personeller
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(955, 453)
+        Me.TextBox7.Location = New System.Drawing.Point(746, 451)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 52
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(731, 453)
+        Me.TextBox8.Location = New System.Drawing.Point(748, 340)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 51
@@ -195,53 +192,11 @@ Partial Class personeller
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(744, 415)
+        Me.Label7.Location = New System.Drawing.Point(761, 302)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(78, 24)
         Me.Label7.TabIndex = 50
         Me.Label7.Text = "Görevi"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(744, 297)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(86, 24)
-        Me.Label8.TabIndex = 49
-        Me.Label8.Text = "Cinsiyet"
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton1.Location = New System.Drawing.Point(746, 340)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(67, 24)
-        Me.RadioButton1.TabIndex = 53
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Kadın"
-        Me.RadioButton1.UseVisualStyleBackColor = False
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton2.Location = New System.Drawing.Point(746, 379)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(68, 24)
-        Me.RadioButton2.TabIndex = 54
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Erkek"
-        Me.RadioButton2.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -277,12 +232,9 @@ Partial Class personeller
         Me.ClientSize = New System.Drawing.Size(1183, 580)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
@@ -322,9 +274,6 @@ Partial Class personeller
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
 End Class
