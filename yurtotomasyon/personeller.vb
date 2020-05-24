@@ -32,6 +32,44 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
+
+        Dim cinsiyet As String
+        Dim id, ad, soyad, tc, cinsyet, telno, gorevid, mail As String
+        If RadioButton1.Checked Then
+            cinsyet = RadioButton1.Text
+        ElseIf RadioButton2.Checked Then
+            cinsyet = RadioButton2.Text
+        Else
+            cinsyet = "Cinsiyet Seçilmedi"
+        End If
+        DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
+        DataGridView1.CurrentRow.Cells(1).Value = TextBox2.Text
+        DataGridView1.CurrentRow.Cells(2).Value = TextBox4.Text
+        DataGridView1.CurrentRow.Cells(3).Value = TextBox5.Text
+        DataGridView1.CurrentRow.Cells(4).Value = TextBox6.Text
+        DataGridView1.CurrentRow.Cells(5).Value = TextBox7.Text
+        DataGridView1.CurrentRow.Cells(7).Value = TextBox8.Text
+
+
+        id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
+        ad = DataGridView1.CurrentRow.Cells(1).Value.ToString()
+        soyad = DataGridView1.CurrentRow.Cells(2).Value.ToString()
+        tc = DataGridView1.CurrentRow.Cells(3).Value.ToString()
+        cinsyet = DataGridView1.CurrentRow.Cells(4).Value.ToString()
+        telno = DataGridView1.CurrentRow.Cells(5).Value.ToString()
+        gorevid = DataGridView1.CurrentRow.Cells(6).Value.ToString()
+        mail = DataGridView1.CurrentRow.Cells(7).Value.ToString()
+
+        con.openCon()
+        con.updatePersoneller(id, ad, soyad, tc, cinsyet, telno, gorevid, mail)
+        Dim dtable As DataTable = con.getPersoneller()
+        dtable.Clear()
+        DataGridView1.DataSource = dtable
+        DataGridView1.DataSource = con.getPersoneller()
+        con.closeCon()
+
+
+
     End Sub
 
 

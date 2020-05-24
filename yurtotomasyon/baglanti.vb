@@ -217,5 +217,16 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("Oda Güncellendi")
     End Sub
+
+    Public Sub updatepersoneller(id As String, ad As String, soyad As String, tc As String, cinsiyet As String, telno As String, gorevid As String, mail As String)
+        command.CommandText = "UPDATE personeller SET ad = '" + ad + "',soyad = '" + soyad + "',tc = '" + tc + "',cinsiyet = '" + cinsiyet + "',telno = '" + telno + "',gorevid = '" + gorevid + "' ,mail = '" + mail + "'WHERE id = " + id
+        command.Connection = baglanti
+        command.ExecuteNonQuery()
+        MsgBox("personel Güncellendi")
+    End Sub
+
+
+
+
 End Class
 
