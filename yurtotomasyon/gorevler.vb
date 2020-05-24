@@ -40,16 +40,22 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim id, ad As String
+        id = TextBox1.Text
+        ad = TextBox4.Text
         DataGridView1.CurrentRow.Cells(1).Value = TextBox4.Text
         DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
         id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
         ad = DataGridView1.CurrentRow.Cells(1).Value.ToString()
         con.openCon()
         con.updateGorevler(id, ad)
-        Dim dtable As DataTable = con.getOgrenciler()
+        Dim dtable As DataTable = con.getGorevler()
         dtable.Clear()
         DataGridView1.DataSource = dtable
-        DataGridView1.DataSource = con.getOgrenciler()
+        DataGridView1.DataSource = con.getGorevler()
         con.closeCon()
+        Me.Refresh()
+
+
+
     End Sub
 End Class
