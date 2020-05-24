@@ -43,4 +43,24 @@
             isAdded = True
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox1.Clear()
+        TextBox2.Clear()
+        TextBox3.Clear()
+        TextBox4.Clear()
+        TextBox10.Clear()
+        TextBox6.Clear()
+        TextBox7.Clear()
+        TextBox8.Clear()
+        RadioButton1.Checked = False
+        RadioButton2.Checked = False
+        RadioButton3.Checked = False
+        RadioButton4.Checked = False
+        RadioButton5.Checked = False
+        RadioButton6.Checked = False
+        DateTimePicker1.Value = Now.ToString()
+        ComboBox1.Text = ""
+
+    End Sub
 End Class
