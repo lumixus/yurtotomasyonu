@@ -39,21 +39,21 @@ Partial Class Odalar
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(971, 236)
+        Me.TextBox5.Location = New System.Drawing.Point(728, 355)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 66
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(748, 236)
+        Me.TextBox4.Location = New System.Drawing.Point(728, 197)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 65
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(971, 126)
+        Me.TextBox2.Location = New System.Drawing.Point(728, 272)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 64
@@ -61,7 +61,7 @@ Partial Class Odalar
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(757, 126)
+        Me.TextBox1.Location = New System.Drawing.Point(728, 126)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 63
@@ -72,7 +72,7 @@ Partial Class Odalar
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(959, 182)
+        Me.Label4.Location = New System.Drawing.Point(724, 309)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(128, 24)
         Me.Label4.TabIndex = 60
@@ -84,7 +84,7 @@ Partial Class Odalar
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(687, 182)
+        Me.Label3.Location = New System.Drawing.Point(724, 158)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(234, 24)
         Me.Label3.TabIndex = 59
@@ -96,7 +96,7 @@ Partial Class Odalar
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(948, 76)
+        Me.Label2.Location = New System.Drawing.Point(724, 230)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(159, 24)
         Me.Label2.TabIndex = 58
@@ -108,7 +108,7 @@ Partial Class Odalar
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(751, 76)
+        Me.Label1.Location = New System.Drawing.Point(724, 76)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(108, 24)
         Me.Label1.TabIndex = 57
@@ -142,7 +142,7 @@ Partial Class Odalar
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(742, 335)
+        Me.Button2.Location = New System.Drawing.Point(884, 380)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 67
@@ -155,7 +155,7 @@ Partial Class Odalar
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(971, 335)
+        Me.Button1.Location = New System.Drawing.Point(569, 380)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 68
@@ -167,7 +167,7 @@ Partial Class Odalar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1126, 460)
+        Me.ClientSize = New System.Drawing.Size(1007, 460)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox5)
@@ -183,7 +183,7 @@ Partial Class Odalar
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Odalar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "odalar"
+        Me.Text = "Odalar"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -55,7 +55,7 @@ Partial Class gorevler
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(529, 204)
+        Me.TextBox4.Location = New System.Drawing.Point(499, 208)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 49
@@ -63,7 +63,7 @@ Partial Class gorevler
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(529, 108)
+        Me.TextBox1.Location = New System.Drawing.Point(499, 112)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 48
@@ -74,7 +74,7 @@ Partial Class gorevler
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(525, 156)
+        Me.Label3.Location = New System.Drawing.Point(495, 160)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(115, 24)
         Me.Label3.TabIndex = 47
@@ -86,7 +86,7 @@ Partial Class gorevler
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(525, 56)
+        Me.Label1.Location = New System.Drawing.Point(495, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(31, 24)
         Me.Label1.TabIndex = 46
@@ -98,7 +98,7 @@ Partial Class gorevler
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(523, 275)
+        Me.Button2.Location = New System.Drawing.Point(499, 312)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 51
@@ -111,7 +111,7 @@ Partial Class gorevler
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(652, 275)
+        Me.Button1.Location = New System.Drawing.Point(362, 312)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 52
@@ -123,7 +123,7 @@ Partial Class gorevler
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(770, 364)
+        Me.ClientSize = New System.Drawing.Size(632, 364)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox4)

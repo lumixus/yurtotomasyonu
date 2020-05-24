@@ -67,28 +67,28 @@ Partial Class personeller
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(962, 340)
+        Me.TextBox6.Location = New System.Drawing.Point(950, 277)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
         Me.TextBox6.TabIndex = 48
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(962, 240)
+        Me.TextBox5.Location = New System.Drawing.Point(950, 206)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 47
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(739, 240)
+        Me.TextBox4.Location = New System.Drawing.Point(748, 206)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 45
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(962, 129)
+        Me.TextBox2.Location = New System.Drawing.Point(950, 129)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 44
@@ -106,7 +106,7 @@ Partial Class personeller
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(774, 400)
+        Me.Label6.Location = New System.Drawing.Point(744, 315)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(51, 24)
         Me.Label6.TabIndex = 42
@@ -118,7 +118,7 @@ Partial Class personeller
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(950, 297)
+        Me.Label5.Location = New System.Drawing.Point(946, 240)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(126, 24)
         Me.Label5.TabIndex = 41
@@ -130,7 +130,7 @@ Partial Class personeller
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(974, 185)
+        Me.Label4.Location = New System.Drawing.Point(950, 169)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(76, 24)
         Me.Label4.TabIndex = 40
@@ -142,7 +142,7 @@ Partial Class personeller
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(760, 185)
+        Me.Label3.Location = New System.Drawing.Point(742, 169)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 24)
         Me.Label3.TabIndex = 39
@@ -154,7 +154,7 @@ Partial Class personeller
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(983, 80)
+        Me.Label2.Location = New System.Drawing.Point(950, 80)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 24)
         Me.Label2.TabIndex = 38
@@ -174,14 +174,14 @@ Partial Class personeller
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(746, 451)
+        Me.TextBox7.Location = New System.Drawing.Point(746, 358)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 52
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(748, 340)
+        Me.TextBox8.Location = New System.Drawing.Point(746, 277)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 51
@@ -192,7 +192,7 @@ Partial Class personeller
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(761, 302)
+        Me.Label7.Location = New System.Drawing.Point(744, 240)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(78, 24)
         Me.Label7.TabIndex = 50
@@ -204,7 +204,7 @@ Partial Class personeller
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(838, 528)
+        Me.Button2.Location = New System.Drawing.Point(944, 345)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 55
@@ -217,7 +217,7 @@ Partial Class personeller
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(978, 528)
+        Me.Button1.Location = New System.Drawing.Point(560, 402)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 56
@@ -229,7 +229,7 @@ Partial Class personeller
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1183, 580)
+        Me.ClientSize = New System.Drawing.Size(1101, 466)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox7)
@@ -251,7 +251,7 @@ Partial Class personeller
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "personeller"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "personeller"
+        Me.Text = "Personeller"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
