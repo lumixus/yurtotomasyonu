@@ -215,7 +215,7 @@ Public Class Class1
         command.CommandText = "UPDATE gorevler SET gorevad = '" + gorevad + "' WHERE id = " + id
         command.Connection = baglanti
         command.ExecuteNonQuery()
-        MsgBox("Oda Güncellendi")
+        MsgBox("Görevler Güncellendi")
     End Sub
 End Class
 
