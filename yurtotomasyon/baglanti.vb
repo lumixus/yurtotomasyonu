@@ -184,21 +184,9 @@ Public Class Class1
         MsgBox("Veri Silindi")
     End Sub
     Public Sub updateOgrenci(id As String, ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, harcyatirdimi As Boolean, bursdurumu As String, dtarih As DateTime)
-        command.CommandText = "UPDATE ogrenciler SET ad = @ad , soyad=@soyad, tc = @tc ,telno = @telno,mail = @mail,bolum =@bolum ,okul = @okul ,ogrenimturu = @ogrenimturu ,odanumarasi = @odanumarasi ,gunceldonem = @gunceldonem,harcyatirdimi = @harcyatirdimi ,bursdurumu = @bursdurumu,dtarih = @dtarih WHERE id = " + id
+        command.CommandText = "UPDATE ogrenciler SET ad = '" + ad + "',soyad = '" + soyad + "',tc = '" + tc + "',telno = '" + telno + "',mail = '" + mail + "',bolum = '" + bolum + "',okul = '" + okul + "',ogrenimturu = '" + ogrenimturu + "' ,odanumarasi = '" + odanumarasi + "',gunceldonem = '" + gunceldonem + "',harcyatirdimi = '" + harcyatirdimi + "',bursdurumu = '" + bursdurumu + "' WHERE id = " + id
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@ad", ad)
-        command.Parameters.AddWithValue("@soyad", soyad)
-        command.Parameters.AddWithValue("@tc", tc)
-        command.Parameters.AddWithValue("@telno", telno)
-        command.Parameters.AddWithValue("@mail", mail)
-        command.Parameters.AddWithValue("@bolum", bolum)
-        command.Parameters.AddWithValue("@okul", okul)
-        command.Parameters.AddWithValue("@ogrenimturu", ogrenimturu)
-        command.Parameters.AddWithValue("@odanumarasi", odanumarasi)
-        command.Parameters.AddWithValue("@gunceldonem", gunceldonem)
-        command.Parameters.AddWithValue("@harcyatirdimi", harcyatirdimi)
-        command.Parameters.AddWithValue("@bursdurumu", bursdurumu)
-        command.Parameters.AddWithValue("@dtarih", dtarih)
+        command.ExecuteNonQuery()
         command.ExecuteNonQuery()
         MsgBox("Öğrenci Güncellendi")
     End Sub
