@@ -155,7 +155,7 @@ Public Class Class1
         MsgBox("Oda Eklendi")
     End Sub
     Public Sub addPersonel(ad As String, soyad As String, tc As String, telno As String, gorevid As String, mail As String, cinsiyet As String)
-        command.CommandText = "INSERT INTO personeller (ad,soyad,tc,cinsiyet,telno,gorevid,mail) values '" + ad + "','" + soyad + "','" + tc + "','" + telno + "','" + gorevid + "','" + mail + "','" + cinsiyet + "')"
+        command.CommandText = "INSERT INTO personeller (ad,soyad,tc,cinsiyet,telno,gorevid,mail) values ('" + ad + "','" + soyad + "','" + tc + "','" + cinsiyet + "','" + telno + "','" + gorevid + "','" + mail + "')"
         command.Connection = baglanti
         command.ExecuteNonQuery()
         MsgBox("Personel Eklendi")
