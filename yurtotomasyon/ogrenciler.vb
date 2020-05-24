@@ -1,10 +1,12 @@
 ﻿Public Class Ogrenciler
     Dim con As New Class1
     Dim isNull As Boolean
+    Dim isAdded As Boolean = False
     Private Sub ogrenciler_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         con.openCon()
         DataGridView1.DataSource = con.getOgrenciler()
         con.closeCon()
+        Button2.Enabled = False
     End Sub
 
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
@@ -20,6 +22,7 @@
         If isNull Then
             MessageBox.Show("Dolu olan bir satır seçilmelidir !")
         Else
+            Button2.Enabled = True
             TextBox1.Text = CStr(DataGridView1.CurrentRow.Cells(0).Value)
             TextBox2.Text = CStr(DataGridView1.CurrentRow.Cells(1).Value)
             TextBox3.Text = CStr(DataGridView1.CurrentRow.Cells(4).Value)
@@ -52,5 +55,55 @@
 
             End If
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        Dim burs As String
+        Dim id, ad, soyad, tc, tel, mail, ogrturu, bolum, okul, odanumarasi, gunceldonem As String
+        id = TextBox1.Text
+        ad = TextBox2.Text
+        soyad = TextBox4.Text
+        tc = TextBox5.Text
+        tel = TextBox3.Text
+        mail = TextBox6.Text
+        bolum = TextBox7.Text
+        okul = TextBox8.Text
+        ogrturu = ComboBox1.Text
+        odanumarasi = ComboBox2.Text
+        gunceldonem = TextBox9.Text
+        If RadioButton1.Checked Then
+            burs = RadioButton1.Text
+        ElseIf RadioButton3.Checked Then
+            burs = RadioButton3.Text
+        ElseIf RadioButton2.Checked Then
+            burs = RadioButton2.Text
+        ElseIf RadioButton4.Checked Then
+            burs = RadioButton4.Text
+        Else
+            burs = "Burs Yok"
+        End If
+        con.openCon()
+        con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, CheckBox1.Checked, burs, DateTimePicker1.Value)
+        Dim dtable As DataTable = con.getOgrenciler()
+        dtable.Clear()
+        MsgBox(TextBox1.Text)
+        DataGridView1.DataSource = dtable
+        DataGridView1.DataSource = con.getOgrenciler()
+        con.closeCon()
+
+    End Sub
+
+    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComboBox1.DropDown
+        If isAdded = False Then
+            ComboBox2.Items.Clear()
+            ComboBox2.ResetText()
+            con.openCon()
+            For Each row As DataRow In con.getBosOdalar().Rows
+                ComboBox2.Items.Add(row.Item("odanumarasi"))
+            Next row
+            con.closeCon()
+            isAdded = True
+        End If
     End Sub
 End Class

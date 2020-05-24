@@ -324,6 +324,7 @@ Partial Class Ogrenciler
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"1", "2"})
         Me.ComboBox1.Location = New System.Drawing.Point(93, 581)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
@@ -349,11 +350,10 @@ Partial Class Ogrenciler
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.CheckBox1.Location = New System.Drawing.Point(463, 667)
+        Me.CheckBox1.Location = New System.Drawing.Point(539, 667)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(59, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 42
-        Me.CheckBox1.Text = "Yatırıldı"
         Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'RadioButton1
