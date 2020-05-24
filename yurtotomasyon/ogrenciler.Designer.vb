@@ -99,7 +99,7 @@ Partial Class Ogrenciler
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(961, 111)
+        Me.Label2.Location = New System.Drawing.Point(907, 111)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 24)
         Me.Label2.TabIndex = 18
@@ -111,7 +111,7 @@ Partial Class Ogrenciler
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(738, 217)
+        Me.Label3.Location = New System.Drawing.Point(719, 189)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 24)
         Me.Label3.TabIndex = 19
@@ -123,7 +123,7 @@ Partial Class Ogrenciler
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(952, 217)
+        Me.Label4.Location = New System.Drawing.Point(907, 189)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(76, 24)
         Me.Label4.TabIndex = 20
@@ -135,7 +135,7 @@ Partial Class Ogrenciler
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(719, 322)
+        Me.Label5.Location = New System.Drawing.Point(719, 265)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(126, 24)
         Me.Label5.TabIndex = 21
@@ -147,7 +147,7 @@ Partial Class Ogrenciler
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(961, 322)
+        Me.Label6.Location = New System.Drawing.Point(907, 265)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(51, 24)
         Me.Label6.TabIndex = 22
@@ -159,7 +159,7 @@ Partial Class Ogrenciler
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(98, 439)
+        Me.Label7.Location = New System.Drawing.Point(719, 344)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(88, 24)
         Me.Label7.TabIndex = 23
@@ -171,7 +171,7 @@ Partial Class Ogrenciler
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(497, 439)
+        Me.Label8.Location = New System.Drawing.Point(907, 344)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(57, 24)
         Me.Label8.TabIndex = 24
@@ -183,7 +183,7 @@ Partial Class Ogrenciler
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(80, 531)
+        Me.Label10.Location = New System.Drawing.Point(719, 408)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(145, 24)
         Me.Label10.TabIndex = 25
@@ -195,7 +195,7 @@ Partial Class Ogrenciler
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(459, 531)
+        Me.Label11.Location = New System.Drawing.Point(907, 408)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(159, 24)
         Me.Label11.TabIndex = 26
@@ -207,7 +207,7 @@ Partial Class Ogrenciler
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(80, 619)
+        Me.Label12.Location = New System.Drawing.Point(1087, 111)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(171, 24)
         Me.Label12.TabIndex = 27
@@ -219,7 +219,7 @@ Partial Class Ogrenciler
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(89, 700)
+        Me.Label14.Location = New System.Drawing.Point(1087, 189)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(137, 24)
         Me.Label14.TabIndex = 29
@@ -231,7 +231,7 @@ Partial Class Ogrenciler
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(477, 700)
+        Me.Label15.Location = New System.Drawing.Point(1083, 365)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(141, 24)
         Me.Label15.TabIndex = 30
@@ -243,7 +243,7 @@ Partial Class Ogrenciler
         Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.White
-        Me.Label16.Location = New System.Drawing.Point(103, 781)
+        Me.Label16.Location = New System.Drawing.Point(1087, 284)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(112, 24)
         Me.Label16.TabIndex = 31
@@ -252,21 +252,21 @@ Partial Class Ogrenciler
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(726, 161)
+        Me.TextBox1.Location = New System.Drawing.Point(723, 152)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 32
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(940, 161)
+        Me.TextBox2.Location = New System.Drawing.Point(911, 152)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 33
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(716, 372)
+        Me.TextBox3.Location = New System.Drawing.Point(723, 303)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
@@ -274,14 +274,14 @@ Partial Class Ogrenciler
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(716, 272)
+        Me.TextBox4.Location = New System.Drawing.Point(723, 223)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 34
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(940, 272)
+        Me.TextBox5.Location = New System.Drawing.Point(911, 223)
         Me.TextBox5.MaxLength = 11
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
@@ -289,21 +289,21 @@ Partial Class Ogrenciler
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(940, 372)
+        Me.TextBox6.Location = New System.Drawing.Point(911, 303)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
         Me.TextBox6.TabIndex = 36
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(93, 491)
+        Me.TextBox7.Location = New System.Drawing.Point(723, 371)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 37
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(476, 491)
+        Me.TextBox8.Location = New System.Drawing.Point(911, 371)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 38
@@ -312,7 +312,7 @@ Partial Class Ogrenciler
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox1.Location = New System.Drawing.Point(93, 581)
+        Me.ComboBox1.Location = New System.Drawing.Point(723, 449)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 39
@@ -320,14 +320,14 @@ Partial Class Ogrenciler
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(463, 581)
+        Me.ComboBox2.Location = New System.Drawing.Point(911, 449)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox2.TabIndex = 40
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(96, 664)
+        Me.TextBox9.Location = New System.Drawing.Point(1091, 152)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 20)
         Me.TextBox9.TabIndex = 41
@@ -337,7 +337,7 @@ Partial Class Ogrenciler
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton1.Location = New System.Drawing.Point(96, 743)
+        Me.RadioButton1.Location = New System.Drawing.Point(1091, 226)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton1.TabIndex = 43
@@ -350,7 +350,7 @@ Partial Class Ogrenciler
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton2.Location = New System.Drawing.Point(93, 769)
+        Me.RadioButton2.Location = New System.Drawing.Point(1091, 249)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton2.TabIndex = 44
@@ -363,7 +363,7 @@ Partial Class Ogrenciler
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton3.Location = New System.Drawing.Point(202, 746)
+        Me.RadioButton3.Location = New System.Drawing.Point(1135, 226)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton3.TabIndex = 45
@@ -373,14 +373,14 @@ Partial Class Ogrenciler
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(452, 746)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(1087, 408)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 46
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(61, 829)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(1091, 321)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 47
@@ -390,7 +390,7 @@ Partial Class Ogrenciler
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.RadioButton4.Location = New System.Drawing.Point(202, 769)
+        Me.RadioButton4.Location = New System.Drawing.Point(1135, 249)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(51, 17)
         Me.RadioButton4.TabIndex = 48
@@ -404,7 +404,7 @@ Partial Class Ogrenciler
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(772, 598)
+        Me.Button2.Location = New System.Drawing.Point(1108, 495)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(179, 86)
         Me.Button2.TabIndex = 52
@@ -417,7 +417,7 @@ Partial Class Ogrenciler
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(976, 598)
+        Me.Button1.Location = New System.Drawing.Point(500, 449)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(179, 86)
         Me.Button1.TabIndex = 53
@@ -429,7 +429,7 @@ Partial Class Ogrenciler
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
-        Me.ClientSize = New System.Drawing.Size(1167, 862)
+        Me.ClientSize = New System.Drawing.Size(1331, 625)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.RadioButton4)
@@ -467,7 +467,7 @@ Partial Class Ogrenciler
         Me.Controls.Add(Me.Label9)
         Me.Name = "Ogrenciler"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "ogrenciler"
+        Me.Text = "Öğrenciler"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
