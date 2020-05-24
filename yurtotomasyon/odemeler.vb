@@ -5,6 +5,7 @@
         con.openCon()
         DataGridView1.DataSource = con.getOdemeler()
         con.closeCon()
+        Button2.Enabled = False
     End Sub
 
 
@@ -27,7 +28,7 @@
             TextBox4.Text = CStr(DataGridView1.CurrentRow.Cells(3).Value)
             TextBox5.Text = CStr(DataGridView1.CurrentRow.Cells(5).Value)
             DateTimePicker2.Value = CStr(DataGridView1.CurrentRow.Cells(2).Value)
-
+            Button2.Enabled = True
         End If
 
 

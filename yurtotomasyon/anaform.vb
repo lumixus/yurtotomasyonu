@@ -26,7 +26,6 @@
         Me.Chart2.Series("Series1").Points.AddXY("Öğrenci Sayısı", con.getStudentCount())
         Me.Chart2.Series("Series1").Points.AddXY("Maksimum Öğrenci", CInt(con.getMaxStudent))
         Label13.Text = con.getLastStudentName() + " " + con.getLastStudentSurname() + " - " + con.getLastStudentID()
-        Label13.Text = con.getLastStudentName() + " " + con.getLastStudentSurname() + " - " + con.getLastStudentID()
         Label15.Text = giris.TextBox1.Text()
         Label18.Text = Date.Now.ToString()
         con.closeCon()

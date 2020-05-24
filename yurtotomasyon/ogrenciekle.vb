@@ -27,7 +27,9 @@
         End If
         con.openCon()
         con.addOgrenci(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox6.Text, TextBox7.Text, TextBox8.Text, ogtur, ComboBox1.Text, TextBox10.Text, burs, DateTimePicker1.Value)
+        Form1.Label13.Text = con.getLastStudentName() + " " + con.getLastStudentSurname() + " - " + con.getLastStudentID()
         con.closeCon()
+        Form1.Label15.Text = giris.TextBox1.Text
     End Sub
 
     Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComboBox1.DropDown

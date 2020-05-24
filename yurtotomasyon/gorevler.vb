@@ -5,6 +5,7 @@
         con.openCon()
         DataGridView1.DataSource = con.getGorevler()
         con.closeCon()
+        Button2.Enabled = False
     End Sub
 
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
@@ -22,6 +23,7 @@
         Else
             TextBox1.Text = DataGridView1.CurrentRow.Cells(0).Value
             TextBox4.Text = DataGridView1.CurrentRow.Cells(1).Value
+            Button2.Enabled = True
         End If
 
 

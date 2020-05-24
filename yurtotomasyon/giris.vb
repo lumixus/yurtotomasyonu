@@ -17,6 +17,7 @@ Public Class giris
 
             anaform = Form1
             anaform.Show()
+            Form1.Label15.Text = TextBox1.Text
             Hide()
             con.closeCon()
 
