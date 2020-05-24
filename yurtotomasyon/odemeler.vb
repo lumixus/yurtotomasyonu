@@ -47,11 +47,9 @@
         odmik = DataGridView1.CurrentRow.Cells(3).Value.ToString()
         odcekmik = DataGridView1.CurrentRow.Cells(4).Value.ToString()
         kalmik = DataGridView1.CurrentRow.Cells(5).Value.ToString()
-        tarih = DataGridView1.CurrentRow.Cells(2).Value.ToString()
-
-        tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(13).Value.ToString())
+        tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(2).Value.ToString())
         con.openCon()
-        ' con.updateOdemeler(id, ad, odmik, odcekmik, kalmik, tarih)
+        con.updateOdemeler(id, ad, tarih, odmik, odcekmik, kalmik)
         Dim dtable As DataTable = con.getOdemeler()
         dtable.Clear()
         DataGridView1.DataSource = dtable

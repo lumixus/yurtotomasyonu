@@ -224,6 +224,12 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("personel Güncellendi")
     End Sub
+    Public Sub updateOdemeler(id As String, ad As String, tarih As DateTime, odmik As String, odcekmik As String, kalmik As String)
+        command.CommandText = "UPDATE sonodemeler SET ogrenciid = '" + ad + "',ay = '" + tarih + "',odenenmikta = '" + odmik + "',odenecekmiktar ='" + odcekmik + "',kalanmiktar='" + kalmik + "'  WHERE id = " + id
+        command.Connection = baglanti
+        command.ExecuteNonQuery()
+        MsgBox("Ödemeler Güncellendi")
+    End Sub
 
 
 
