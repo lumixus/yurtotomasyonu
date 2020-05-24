@@ -6,4 +6,8 @@
         con.addGorevler(TextBox8.Text)
         con.closeCon()
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox8.Clear()
+    End Sub
 End Class
