@@ -65,7 +65,7 @@ Partial Class ogrenciekle
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(192, 382)
+        Me.Button1.Location = New System.Drawing.Point(190, 384)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 0
@@ -78,7 +78,7 @@ Partial Class ogrenciekle
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(456, 382)
+        Me.Button2.Location = New System.Drawing.Point(433, 384)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 1
@@ -91,7 +91,7 @@ Partial Class ogrenciekle
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(48, 39)
+        Me.Label1.Location = New System.Drawing.Point(25, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(36, 19)
         Me.Label1.TabIndex = 2
@@ -103,7 +103,7 @@ Partial Class ogrenciekle
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(48, 82)
+        Me.Label2.Location = New System.Drawing.Point(25, 80)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(66, 19)
         Me.Label2.TabIndex = 3
@@ -115,7 +115,7 @@ Partial Class ogrenciekle
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(48, 121)
+        Me.Label3.Location = New System.Drawing.Point(25, 137)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(36, 19)
         Me.Label3.TabIndex = 4
@@ -127,7 +127,7 @@ Partial Class ogrenciekle
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(48, 156)
+        Me.Label4.Location = New System.Drawing.Point(25, 197)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(60, 19)
         Me.Label4.TabIndex = 5
@@ -139,7 +139,7 @@ Partial Class ogrenciekle
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(48, 201)
+        Me.Label6.Location = New System.Drawing.Point(25, 262)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(56, 19)
         Me.Label6.TabIndex = 7
@@ -151,7 +151,7 @@ Partial Class ogrenciekle
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label7.Location = New System.Drawing.Point(48, 240)
+        Me.Label7.Location = New System.Drawing.Point(25, 325)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(62, 19)
         Me.Label7.TabIndex = 8
@@ -163,7 +163,7 @@ Partial Class ogrenciekle
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Location = New System.Drawing.Point(400, 40)
+        Me.Label9.Location = New System.Drawing.Point(188, 45)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(108, 19)
         Me.Label9.TabIndex = 10
@@ -175,7 +175,7 @@ Partial Class ogrenciekle
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label10.Location = New System.Drawing.Point(400, 92)
+        Me.Label10.Location = New System.Drawing.Point(188, 91)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(127, 19)
         Me.Label10.TabIndex = 11
@@ -187,7 +187,7 @@ Partial Class ogrenciekle
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label11.Location = New System.Drawing.Point(400, 132)
+        Me.Label11.Location = New System.Drawing.Point(188, 137)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(131, 19)
         Me.Label11.TabIndex = 12
@@ -199,7 +199,7 @@ Partial Class ogrenciekle
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label12.Location = New System.Drawing.Point(400, 205)
+        Me.Label12.Location = New System.Drawing.Point(187, 197)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(109, 19)
         Me.Label12.TabIndex = 13
@@ -211,7 +211,7 @@ Partial Class ogrenciekle
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label13.Location = New System.Drawing.Point(391, 285)
+        Me.Label13.Location = New System.Drawing.Point(187, 272)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(116, 19)
         Me.Label13.TabIndex = 14
@@ -219,7 +219,7 @@ Partial Class ogrenciekle
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(173, 42)
+        Me.TextBox1.Location = New System.Drawing.Point(29, 44)
         Me.TextBox1.MaxLength = 25
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
@@ -227,7 +227,7 @@ Partial Class ogrenciekle
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(173, 82)
+        Me.TextBox2.Location = New System.Drawing.Point(29, 102)
         Me.TextBox2.MaxLength = 25
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
@@ -235,7 +235,7 @@ Partial Class ogrenciekle
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(173, 121)
+        Me.TextBox3.Location = New System.Drawing.Point(29, 159)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
@@ -243,7 +243,7 @@ Partial Class ogrenciekle
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(173, 159)
+        Me.TextBox4.Location = New System.Drawing.Point(29, 219)
         Me.TextBox4.MaxLength = 11
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -251,7 +251,7 @@ Partial Class ogrenciekle
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(173, 204)
+        Me.TextBox6.Location = New System.Drawing.Point(29, 284)
         Me.TextBox6.MaxLength = 50
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
@@ -259,7 +259,7 @@ Partial Class ogrenciekle
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(173, 243)
+        Me.TextBox7.Location = New System.Drawing.Point(29, 347)
         Me.TextBox7.MaxLength = 30
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
@@ -283,7 +283,7 @@ Partial Class ogrenciekle
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(535, 22)
+        Me.GroupBox1.Location = New System.Drawing.Point(322, 22)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(212, 46)
         Me.GroupBox1.TabIndex = 24
@@ -308,7 +308,7 @@ Partial Class ogrenciekle
         Me.GroupBox2.Controls.Add(Me.RadioButton6)
         Me.GroupBox2.Controls.Add(Me.RadioButton3)
         Me.GroupBox2.Controls.Add(Me.RadioButton4)
-        Me.GroupBox2.Location = New System.Drawing.Point(516, 177)
+        Me.GroupBox2.Location = New System.Drawing.Point(322, 169)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(217, 80)
         Me.GroupBox2.TabIndex = 26
@@ -365,7 +365,7 @@ Partial Class ogrenciekle
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(513, 286)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(323, 272)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 27
@@ -376,7 +376,7 @@ Partial Class ogrenciekle
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Location = New System.Drawing.Point(48, 281)
+        Me.Label8.Location = New System.Drawing.Point(25, 382)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(49, 19)
         Me.Label8.TabIndex = 9
@@ -384,7 +384,7 @@ Partial Class ogrenciekle
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(173, 284)
+        Me.TextBox8.Location = New System.Drawing.Point(29, 404)
         Me.TextBox8.MaxLength = 30
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
@@ -392,7 +392,7 @@ Partial Class ogrenciekle
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(534, 131)
+        Me.TextBox10.Location = New System.Drawing.Point(322, 137)
         Me.TextBox10.MaxLength = 4
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(120, 20)
@@ -402,7 +402,7 @@ Partial Class ogrenciekle
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3"})
-        Me.ComboBox1.Location = New System.Drawing.Point(533, 92)
+        Me.ComboBox1.Location = New System.Drawing.Point(322, 91)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 29
@@ -412,7 +412,7 @@ Partial Class ogrenciekle
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(760, 444)
+        Me.ClientSize = New System.Drawing.Size(561, 444)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.DateTimePicker1)

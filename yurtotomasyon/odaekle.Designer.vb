@@ -36,7 +36,7 @@ Partial Class odaekle
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(366, 87)
+        Me.Button2.Location = New System.Drawing.Point(124, 124)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 48
@@ -49,7 +49,7 @@ Partial Class odaekle
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(366, 15)
+        Me.Button1.Location = New System.Drawing.Point(12, 124)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 47
@@ -58,18 +58,18 @@ Partial Class odaekle
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(245, 107)
+        Me.TextBox3.Location = New System.Drawing.Point(16, 98)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(214, 20)
         Me.TextBox3.TabIndex = 46
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(245, 28)
+        Me.TextBox1.Location = New System.Drawing.Point(16, 37)
         Me.TextBox1.MaxLength = 25
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(214, 20)
         Me.TextBox1.TabIndex = 44
         '
         'Label3
@@ -78,7 +78,7 @@ Partial Class odaekle
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(54, 106)
+        Me.Label3.Location = New System.Drawing.Point(12, 73)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(104, 19)
         Me.Label3.TabIndex = 43
@@ -90,7 +90,7 @@ Partial Class odaekle
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(54, 24)
+        Me.Label1.Location = New System.Drawing.Point(12, 15)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(127, 19)
         Me.Label1.TabIndex = 41
@@ -101,7 +101,7 @@ Partial Class odaekle
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Titanium
-        Me.ClientSize = New System.Drawing.Size(617, 176)
+        Me.ClientSize = New System.Drawing.Size(248, 170)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
@@ -110,7 +110,7 @@ Partial Class odaekle
         Me.Controls.Add(Me.Label1)
         Me.Name = "odaekle"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "odaekle"
+        Me.Text = "Oda Ekle"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

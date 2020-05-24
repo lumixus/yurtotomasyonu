@@ -49,7 +49,7 @@ Partial Class personelekle
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(383, 110)
+        Me.GroupBox1.Location = New System.Drawing.Point(321, 110)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(155, 46)
         Me.GroupBox1.TabIndex = 38
@@ -82,7 +82,7 @@ Partial Class personelekle
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(411, 70)
+        Me.TextBox6.Location = New System.Drawing.Point(321, 68)
         Me.TextBox6.MaxLength = 50
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
@@ -90,7 +90,7 @@ Partial Class personelekle
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(130, 148)
+        Me.TextBox4.Location = New System.Drawing.Point(94, 145)
         Me.TextBox4.MaxLength = 11
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -98,7 +98,7 @@ Partial Class personelekle
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(130, 110)
+        Me.TextBox3.Location = New System.Drawing.Point(94, 110)
         Me.TextBox3.MaxLength = 11
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
@@ -106,7 +106,7 @@ Partial Class personelekle
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(130, 71)
+        Me.TextBox2.Location = New System.Drawing.Point(94, 71)
         Me.TextBox2.MaxLength = 25
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
@@ -114,7 +114,7 @@ Partial Class personelekle
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(130, 31)
+        Me.TextBox1.Location = New System.Drawing.Point(94, 29)
         Me.TextBox1.MaxLength = 25
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
@@ -126,7 +126,7 @@ Partial Class personelekle
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Location = New System.Drawing.Point(270, 111)
+        Me.Label9.Location = New System.Drawing.Point(228, 108)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(72, 19)
         Me.Label9.TabIndex = 31
@@ -138,7 +138,7 @@ Partial Class personelekle
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(286, 67)
+        Me.Label6.Location = New System.Drawing.Point(228, 69)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(56, 19)
         Me.Label6.TabIndex = 30
@@ -150,7 +150,7 @@ Partial Class personelekle
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(286, 27)
+        Me.Label5.Location = New System.Drawing.Point(228, 29)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(64, 19)
         Me.Label5.TabIndex = 29
@@ -162,7 +162,7 @@ Partial Class personelekle
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(5, 145)
+        Me.Label4.Location = New System.Drawing.Point(12, 146)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(60, 19)
         Me.Label4.TabIndex = 28
@@ -174,7 +174,7 @@ Partial Class personelekle
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(5, 110)
+        Me.Label3.Location = New System.Drawing.Point(12, 108)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(36, 19)
         Me.Label3.TabIndex = 27
@@ -186,7 +186,7 @@ Partial Class personelekle
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(5, 71)
+        Me.Label2.Location = New System.Drawing.Point(12, 69)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(66, 19)
         Me.Label2.TabIndex = 26
@@ -198,7 +198,7 @@ Partial Class personelekle
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(5, 28)
+        Me.Label1.Location = New System.Drawing.Point(12, 29)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(40, 19)
         Me.Label1.TabIndex = 25
@@ -210,7 +210,7 @@ Partial Class personelekle
         Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(381, 189)
+        Me.Button2.Location = New System.Drawing.Point(376, 237)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(106, 40)
         Me.Button2.TabIndex = 40
@@ -223,7 +223,7 @@ Partial Class personelekle
         Me.Button1.BackColor = System.Drawing.SystemColors.GrayText
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(117, 189)
+        Me.Button1.Location = New System.Drawing.Point(12, 237)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 39
@@ -234,7 +234,7 @@ Partial Class personelekle
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Müdür", "Temizlikçi"})
-        Me.ComboBox1.Location = New System.Drawing.Point(411, 31)
+        Me.ComboBox1.Location = New System.Drawing.Point(321, 29)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 41
@@ -244,7 +244,7 @@ Partial Class personelekle
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(571, 289)
+        Me.ClientSize = New System.Drawing.Size(494, 289)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
