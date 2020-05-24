@@ -39,9 +39,9 @@
         DataGridView1.CurrentRow.Cells(1).Value = TextBox2.Text
         DataGridView1.CurrentRow.Cells(2).Value = TextBox4.Text
         DataGridView1.CurrentRow.Cells(3).Value = TextBox5.Text
-        DataGridView1.CurrentRow.Cells(4).Value = TextBox6.Text
-        DataGridView1.CurrentRow.Cells(5).Value = TextBox7.Text
-        DataGridView1.CurrentRow.Cells(7).Value = TextBox8.Text
+        DataGridView1.CurrentRow.Cells(5).Value = TextBox6.Text
+        DataGridView1.CurrentRow.Cells(6).Value = TextBox8.Text
+        DataGridView1.CurrentRow.Cells(7).Value = TextBox7.Text
 
 
         id = DataGridView1.CurrentRow.Cells(0).Value.ToString()

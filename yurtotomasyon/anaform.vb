@@ -23,8 +23,12 @@
         Label5.Text = con.getBedCount()
         Me.Chart1.Series("Series1").Points.AddXY("Dolu Oda", CInt(con.getFullRooms()))
         Me.Chart1.Series("Series1").Points.AddXY("Boş Oda", CInt(con.getEmptyRooms()))
-        Me.Chart2.Series("Series1").Points.AddXY("Dolu Oda", 40)
-        Me.Chart2.Series("Series1").Points.AddXY("Boş Oda", 80)
+        Me.Chart2.Series("Series1").Points.AddXY("Öğrenci Sayısı", con.getStudentCount())
+        Me.Chart2.Series("Series1").Points.AddXY("Maksimum Öğrenci", CInt(con.getMaxStudent))
+        Label13.Text = con.getLastStudentName() + " " + con.getLastStudentSurname() + " - " + con.getLastStudentID()
+        Label13.Text = con.getLastStudentName() + " " + con.getLastStudentSurname() + " - " + con.getLastStudentID()
+        Label15.Text = giris.TextBox1.Text()
+        Label18.Text = Date.Now.ToString()
         con.closeCon()
 
 
@@ -69,5 +73,21 @@
 
     Private Sub OdaEkleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OdaEkleToolStripMenuItem.Click
         odaekle.Show()
+    End Sub
+
+    Private Sub ÇıkışlToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÇıkışlToolStripMenuItem.Click
+        giris.Show()
+        Me.Hide()
+        ogrenciekle.Close()
+        Ogrenciler.Close()
+        gorevler.Close()
+        gorevekle.Close()
+        personelekle.Close()
+        personeller.Close()
+        Odalar.Close()
+        odaekle.Close()
+        odemeler.Close()
+        ayarlar.Close()
+
     End Sub
 End Class

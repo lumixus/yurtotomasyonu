@@ -88,13 +88,23 @@ Public Class Class1
         Dim sonuc As String = CStr(command.ExecuteScalar())
         Return sonuc
     End Function
-    Public Function getLastStudent() As String
-        command.CommandText = "Select * from ogrenciler order by id desc"
+    Public Function getLastStudentName() As String
+        command.CommandText = "Select ad from ogrenciler order by id desc"
         command.Connection = baglanti
-        adapter.SelectCommand = command
-        data = command.ExecuteReader()
-        Dim kullaniciadi As String
-        Return kullaniciadi
+        Dim ogrenciadi As String = CStr(command.ExecuteScalar())
+        Return ogrenciadi
+    End Function
+    Public Function getLastStudentSurname() As String
+        command.CommandText = "Select soyad from ogrenciler order by id desc"
+        command.Connection = baglanti
+        Dim ogrenciadi As String = CStr(command.ExecuteScalar())
+        Return ogrenciadi
+    End Function
+    Public Function getLastStudentID() As String
+        command.CommandText = "Select id from ogrenciler order by id desc"
+        command.Connection = baglanti
+        Dim ogrenciadi As String = CStr(command.ExecuteScalar())
+        Return ogrenciadi
     End Function
 
     Public Function getOgrenciler() As DataTable
@@ -123,21 +133,9 @@ Public Class Class1
         Return table
     End Function
     Public Sub addOgrenci(ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, bursdurumu As String, dtarih As DateTime)
-        command.CommandText = "INSERT INTO ogrenciler (ad,soyad,tc,telno,mail,bolum,okul,ogrenimturu,odanumarasi,gunceldonem,bursdurumu,dtarih,ktarih) values (@ad,@soyad,@tc,@telno,@mail,@bolum,@okul,@ogrenimturu,@odanumarasi,@gunceldonem,@bursdurumu,@dtarih,@ktarih)"
+        Dim ktarih As DateTime = DateTime.Today
+        command.CommandText = "INSERT INTO ogrenciler (ad,soyad,tc,telno,mail,bolum,okul,ogrenimturu,odanumarasi,gunceldonem,bursdurumu,dtarih,ktarih) values ('" + ad + "','" + soyad + "','" + tc + "','" + telno + "','" + mail + "','" + bolum + "','" + okul + "','" + ogrenimturu + "','" + odanumarasi + "','" + gunceldonem + "','" + bursdurumu + "','" + dtarih.ToString() + "','" + ktarih.ToString() + "')"
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@ad", ad)
-        command.Parameters.AddWithValue("@soyad", soyad)
-        command.Parameters.AddWithValue("@tc", tc)
-        command.Parameters.AddWithValue("@telno", telno)
-        command.Parameters.AddWithValue("@mail", mail)
-        command.Parameters.AddWithValue("@bolum", bolum)
-        command.Parameters.AddWithValue("@okul", okul)
-        command.Parameters.AddWithValue("@ogrenimturu", ogrenimturu)
-        command.Parameters.AddWithValue("@odanumarasi", odanumarasi)
-        command.Parameters.AddWithValue("@gunceldonem", gunceldonem)
-        command.Parameters.AddWithValue("@bursdurumu", bursdurumu)
-        command.Parameters.AddWithValue("@dtarih", dtarih)
-        command.Parameters.AddWithValue("@ktarih", DateTime.Today)
         command.ExecuteNonQuery()
         MsgBox("Öğrenci Eklendi")
     End Sub
@@ -176,9 +174,8 @@ Public Class Class1
     End Function
 
     Public Sub deleteVeri(tabloadi As String, id As String)
-        command.CommandText = "DELETE FROM " + tabloadi + " WHERE id = @id"
+        command.CommandText = "DELETE FROM " + tabloadi + " WHERE id = " + id
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@id", id)
         command.ExecuteNonQuery()
         MsgBox("Veri Silindi")
     End Sub
@@ -216,7 +213,13 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("Ödemeler Güncellendi")
     End Sub
-
+    Public Function getMaxStudent() As String
+        command.CommandText = "Select maxogrenci from ayarlar"
+        command.Connection = baglanti
+        adapter.SelectCommand = command
+        Dim sonuc As String = CStr(command.ExecuteScalar())
+        Return sonuc
+    End Function
 
 
 

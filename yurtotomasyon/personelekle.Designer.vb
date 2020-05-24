@@ -263,7 +263,7 @@ Partial Class personelekle
         Me.Controls.Add(Me.Label1)
         Me.Name = "personelekle"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "personelekle"
+        Me.Text = "Personel Ekle"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)

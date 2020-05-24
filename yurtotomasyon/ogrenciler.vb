@@ -19,19 +19,19 @@
             Button2.Enabled = True
             TextBox1.Text = DataGridView1.CurrentRow.Cells(0).Value.ToString()
             TextBox2.Text = DataGridView1.CurrentRow.Cells(1).Value.ToString()
-            TextBox3.Text = DataGridView1.CurrentRow.Cells(4).Value.ToString()
             TextBox4.Text = DataGridView1.CurrentRow.Cells(2).Value.ToString()
+            TextBox3.Text = DataGridView1.CurrentRow.Cells(4).Value.ToString()
             TextBox5.Text = DataGridView1.CurrentRow.Cells(3).Value.ToString()
             TextBox6.Text = DataGridView1.CurrentRow.Cells(5).Value.ToString()
             TextBox7.Text = DataGridView1.CurrentRow.Cells(6).Value.ToString()
             TextBox8.Text = DataGridView1.CurrentRow.Cells(7).Value.ToString()
-            If DataGridView1.CurrentRow.Cells(12).Value.ToString() = "%25 Burs" Then
+            If DataGridView1.CurrentRow.Cells(11).Value.ToString() = "%25" Then
                 RadioButton1.Checked = True
-            ElseIf DataGridView1.CurrentRow.Cells(12).Value.ToString() = "%50 Burs" Then
+            ElseIf DataGridView1.CurrentRow.Cells(11).Value.ToString() = "%50" Then
                 RadioButton2.Checked = True
-            ElseIf DataGridView1.CurrentRow.Cells(12).Value.ToString() = "%75 Burs" Then
+            ElseIf DataGridView1.CurrentRow.Cells(11).Value.ToString() = "%75" Then
                 RadioButton3.Checked = True
-            ElseIf DataGridView1.CurrentRow.Cells(12).Value.ToString() = "%100 Burs" Then
+            ElseIf DataGridView1.CurrentRow.Cells(11).Value.ToString() = "%100" Then
                 RadioButton4.Checked = True
             Else
                 RadioButton1.Checked = False
@@ -40,8 +40,8 @@
                 RadioButton4.Checked = False
             End If
             TextBox9.Text = DataGridView1.CurrentRow.Cells(10).Value.ToString()
-            DateTimePicker1.Value = DataGridView1.CurrentRow.Cells(13).Value.ToString()
-            DateTimePicker2.Value = DataGridView1.CurrentRow.Cells(14).Value.ToString()
+            DateTimePicker1.Value = DataGridView1.CurrentRow.Cells(12).Value.ToString()
+            DateTimePicker2.Value = DataGridView1.CurrentRow.Cells(13).Value.ToString()
             ComboBox1.Text = DataGridView1.CurrentRow.Cells(8).Value.ToString()
             ComboBox2.Text = DataGridView1.CurrentRow.Cells(9).Value.ToString()
 
@@ -78,8 +78,8 @@
         DataGridView1.CurrentRow.Cells(8).Value = ComboBox1.Text
         DataGridView1.CurrentRow.Cells(9).Value = ComboBox2.Text
         DataGridView1.CurrentRow.Cells(10).Value = TextBox9.Text
-        DataGridView1.CurrentRow.Cells(12).Value = burs
-        DataGridView1.CurrentRow.Cells(13).Value = DateTimePicker1.Value
+        DataGridView1.CurrentRow.Cells(11).Value = burs
+        DataGridView1.CurrentRow.Cells(12).Value = DateTimePicker1.Value
         id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
         ad = DataGridView1.CurrentRow.Cells(1).Value.ToString()
         soyad = DataGridView1.CurrentRow.Cells(2).Value.ToString()
@@ -91,9 +91,9 @@
         okul = DataGridView1.CurrentRow.Cells(7).Value.ToString()
         odanumarasi = DataGridView1.CurrentRow.Cells(9).Value.ToString()
         gunceldonem = DataGridView1.CurrentRow.Cells(10).Value.ToString()
-        tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(13).Value.ToString())
+        tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(12).Value.ToString())
         con.openCon()
-        con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, DataGridView1.CurrentRow.Cells(12).Value.ToString(), tarih)
+        con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, DataGridView1.CurrentRow.Cells(11).Value.ToString(), tarih)
         Dim dtable As DataTable = con.getOgrenciler()
         dtable.Clear()
         DataGridView1.DataSource = dtable
