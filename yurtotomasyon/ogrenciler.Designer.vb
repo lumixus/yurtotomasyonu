@@ -355,7 +355,7 @@ Partial Class Ogrenciler
         Me.RadioButton2.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton2.TabIndex = 44
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "%75"
+        Me.RadioButton2.Text = "%50"
         Me.RadioButton2.UseVisualStyleBackColor = False
         '
         'RadioButton3
@@ -368,7 +368,7 @@ Partial Class Ogrenciler
         Me.RadioButton3.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton3.TabIndex = 45
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "%50"
+        Me.RadioButton3.Text = "%75"
         Me.RadioButton3.UseVisualStyleBackColor = False
         '
         'DateTimePicker1
