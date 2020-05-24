@@ -114,7 +114,14 @@
     End Sub
 
     Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs) Handles ComboBox2.DropDown
-
+        If isAdded = False Then
+            ComboBox1.Items.Clear()
+            ComboBox1.ResetText()
+            For index = 1 To 30
+                ComboBox2.Items.Add(index)
+            Next
+            isAdded = True
+        End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
