@@ -37,6 +37,7 @@ Partial Class odemeler
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -187,12 +188,26 @@ Partial Class odemeler
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 50
         '
+        'Button2
+        '
+        Me.Button2.AutoEllipsis = True
+        Me.Button2.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button2.Location = New System.Drawing.Point(1075, 353)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(106, 40)
+        Me.Button2.TabIndex = 52
+        Me.Button2.Text = "GÜNCELLE"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'odemeler
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.yurtotomasyon.My.Resources.Resources.Midnight_City
         Me.ClientSize = New System.Drawing.Size(1231, 405)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox5)
@@ -232,4 +247,5 @@ Partial Class odemeler
     Friend WithEvents Label1 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Button2 As Button
 End Class
