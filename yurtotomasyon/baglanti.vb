@@ -122,8 +122,8 @@ Public Class Class1
         adapter.Fill(table)
         Return table
     End Function
-    Public Sub addOgrenci(ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, harcyatirdimi As Boolean, bursdurumu As String, dtarih As DateTime)
-        command.CommandText = "INSERT INTO ogrenciler (ad,soyad,tc,telno,mail,bolum,okul,ogrenimturu,odanumarasi,gunceldonem,harcyatirdimi,bursdurumu,dtarih,ktarih) values (@ad,@soyad,@tc,@telno,@mail,@bolum,@okul,@ogrenimturu,@odanumarasi,@gunceldonem,@harcyatirdimi,@bursdurumu,@dtarih,@ktarih)"
+    Public Sub addOgrenci(ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, bursdurumu As String, dtarih As DateTime)
+        command.CommandText = "INSERT INTO ogrenciler (ad,soyad,tc,telno,mail,bolum,okul,ogrenimturu,odanumarasi,gunceldonem,bursdurumu,dtarih,ktarih) values (@ad,@soyad,@tc,@telno,@mail,@bolum,@okul,@ogrenimturu,@odanumarasi,@gunceldonem,@bursdurumu,@dtarih,@ktarih)"
         command.Connection = baglanti
         command.Parameters.AddWithValue("@ad", ad)
         command.Parameters.AddWithValue("@soyad", soyad)
@@ -135,7 +135,6 @@ Public Class Class1
         command.Parameters.AddWithValue("@ogrenimturu", ogrenimturu)
         command.Parameters.AddWithValue("@odanumarasi", odanumarasi)
         command.Parameters.AddWithValue("@gunceldonem", gunceldonem)
-        command.Parameters.AddWithValue("@harcyatirdimi", harcyatirdimi)
         command.Parameters.AddWithValue("@bursdurumu", bursdurumu)
         command.Parameters.AddWithValue("@dtarih", dtarih)
         command.Parameters.AddWithValue("@ktarih", DateTime.Today)
@@ -183,19 +182,18 @@ Public Class Class1
         command.ExecuteNonQuery()
         MsgBox("Veri Silindi")
     End Sub
-    Public Sub updateOgrenci(id As String, ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, harcyatirdimi As Boolean, bursdurumu As String, dtarih As DateTime)
-        command.CommandText = "UPDATE ogrenciler SET ad = '" + ad + "',soyad = '" + soyad + "',tc = '" + tc + "',telno = '" + telno + "',mail = '" + mail + "',bolum = '" + bolum + "',okul = '" + okul + "',ogrenimturu = '" + ogrenimturu + "' ,odanumarasi = '" + odanumarasi + "',gunceldonem = '" + gunceldonem + "',harcyatirdimi = '" + harcyatirdimi + "',bursdurumu = '" + bursdurumu + "' WHERE id = " + id
+    Public Sub updateOgrenci(id As String, ad As String, soyad As String, tc As String, telno As String, mail As String, bolum As String, okul As String, ogrenimturu As String, odanumarasi As String, gunceldonem As String, bursdurumu As String, dtarih As DateTime)
+
+        Dim yenitarih As String
+        yenitarih = dtarih.ToString()
+        command.CommandText = "UPDATE ogrenciler SET ad = '" + ad + "',soyad = '" + soyad + "',tc = '" + tc + "',telno = '" + telno + "',mail = '" + mail + "',bolum = '" + bolum + "', okul = '" + okul + "',ogrenimturu = '" + ogrenimturu + "',odanumarasi = '" + odanumarasi + "',gunceldonem = '" + gunceldonem + "',bursdurumu = '" + bursdurumu + "', dtarih = '" + yenitarih + "' WHERE id = " + id
         command.Connection = baglanti
-        command.ExecuteNonQuery()
         command.ExecuteNonQuery()
         MsgBox("Öğrenci Güncellendi")
     End Sub
     Public Sub updateOdalar(id As String, odan As String, gosay As String, yatsay As String)
         command.CommandText = "UPDATE odalar SET odanumarasi =  '" + odan + "' , guncelogrencisayisi='" + gosay + "', yataksayisi ='" + yatsay + "' WHERE id = " + id
         command.Connection = baglanti
-        command.Parameters.AddWithValue("@odan", odan)
-        command.Parameters.AddWithValue("@gosay", gosay)
-        command.Parameters.AddWithValue("@yatsay", yatsay)
         command.ExecuteNonQuery()
         MsgBox("Oda Güncellendi")
     End Sub

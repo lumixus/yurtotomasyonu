@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ogrenciekle
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ogrenciekle
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ogrenciekle))
         Me.Button1 = New System.Windows.Forms.Button()
@@ -55,8 +55,6 @@ Partial Class ogrenciekle
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -201,7 +199,7 @@ Partial Class ogrenciekle
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label12.Location = New System.Drawing.Point(399, 253)
+        Me.Label12.Location = New System.Drawing.Point(400, 205)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(109, 19)
         Me.Label12.TabIndex = 13
@@ -213,7 +211,7 @@ Partial Class ogrenciekle
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label13.Location = New System.Drawing.Point(390, 333)
+        Me.Label13.Location = New System.Drawing.Point(391, 285)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(116, 19)
         Me.Label13.TabIndex = 14
@@ -310,7 +308,7 @@ Partial Class ogrenciekle
         Me.GroupBox2.Controls.Add(Me.RadioButton6)
         Me.GroupBox2.Controls.Add(Me.RadioButton3)
         Me.GroupBox2.Controls.Add(Me.RadioButton4)
-        Me.GroupBox2.Location = New System.Drawing.Point(515, 225)
+        Me.GroupBox2.Location = New System.Drawing.Point(516, 177)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(217, 80)
         Me.GroupBox2.TabIndex = 26
@@ -367,7 +365,7 @@ Partial Class ogrenciekle
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(512, 334)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(513, 286)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 27
@@ -409,36 +407,12 @@ Partial Class ogrenciekle
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 29
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(400, 180)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(136, 19)
-        Me.Label5.TabIndex = 30
-        Me.Label5.Text = "Harç Yatırdı mı?:"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.Location = New System.Drawing.Point(573, 184)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox1.TabIndex = 31
-        Me.CheckBox1.UseVisualStyleBackColor = False
-        '
         'ogrenciekle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(760, 444)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -510,6 +484,4 @@ Partial Class ogrenciekle
     Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents CheckBox1 As CheckBox
 End Class

@@ -42,7 +42,6 @@
             TextBox9.Text = DataGridView1.CurrentRow.Cells(10).Value.ToString()
             DateTimePicker1.Value = DataGridView1.CurrentRow.Cells(13).Value.ToString()
             DateTimePicker2.Value = DataGridView1.CurrentRow.Cells(14).Value.ToString()
-            CheckBox1.Text = DataGridView1.CurrentRow.Cells(11).Value.ToString()
             ComboBox1.Text = DataGridView1.CurrentRow.Cells(8).Value.ToString()
             ComboBox2.Text = DataGridView1.CurrentRow.Cells(9).Value.ToString()
 
@@ -79,7 +78,6 @@
         DataGridView1.CurrentRow.Cells(8).Value = ComboBox1.Text
         DataGridView1.CurrentRow.Cells(9).Value = ComboBox2.Text
         DataGridView1.CurrentRow.Cells(10).Value = TextBox9.Text
-        DataGridView1.CurrentRow.Cells(11).Value = CheckBox1.Checked
         DataGridView1.CurrentRow.Cells(12).Value = burs
         DataGridView1.CurrentRow.Cells(13).Value = DateTimePicker1.Value
         id = DataGridView1.CurrentRow.Cells(0).Value.ToString()
@@ -93,10 +91,9 @@
         okul = DataGridView1.CurrentRow.Cells(7).Value.ToString()
         odanumarasi = DataGridView1.CurrentRow.Cells(9).Value.ToString()
         gunceldonem = DataGridView1.CurrentRow.Cells(10).Value.ToString()
-        test = DataGridView1.CurrentRow.Cells(11).Value.ToString()
         tarih = Convert.ToDateTime(DataGridView1.CurrentRow.Cells(13).Value.ToString())
         con.openCon()
-        con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, test, DataGridView1.CurrentRow.Cells(12).Value.ToString(), tarih)
+        con.updateOgrenci(id, ad, soyad, tc, tel, mail, bolum, okul, ogrturu, odanumarasi, gunceldonem, DataGridView1.CurrentRow.Cells(12).Value.ToString(), tarih)
         Dim dtable As DataTable = con.getOgrenciler()
         dtable.Clear()
         DataGridView1.DataSource = dtable

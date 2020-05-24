@@ -35,7 +35,6 @@ Partial Class Ogrenciler
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -50,7 +49,6 @@ Partial Class Ogrenciler
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
@@ -215,18 +213,6 @@ Partial Class Ogrenciler
         Me.Label12.TabIndex = 27
         Me.Label12.Text = "Güncel Dönem"
         '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.White
-        Me.Label13.Location = New System.Drawing.Point(472, 619)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(146, 24)
-        Me.Label13.TabIndex = 28
-        Me.Label13.Text = "Harç Durumu"
-        '
         'Label14
         '
         Me.Label14.AutoSize = True
@@ -346,17 +332,6 @@ Partial Class Ogrenciler
         Me.TextBox9.Size = New System.Drawing.Size(100, 20)
         Me.TextBox9.TabIndex = 41
         '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.CheckBox1.Location = New System.Drawing.Point(539, 667)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox1.TabIndex = 42
-        Me.CheckBox1.UseVisualStyleBackColor = False
-        '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
@@ -463,7 +438,6 @@ Partial Class Ogrenciler
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ComboBox1)
@@ -478,7 +452,6 @@ Partial Class Ogrenciler
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
@@ -514,7 +487,6 @@ Partial Class Ogrenciler
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
@@ -529,7 +501,6 @@ Partial Class Ogrenciler
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton3 As RadioButton
