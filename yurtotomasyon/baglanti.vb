@@ -140,14 +140,14 @@ Public Class Class1
         MsgBox("Öğrenci Eklendi")
     End Sub
     Public Sub addGorevler(gorevadi As String)
-        command.CommandText = "INSERT INTO gorevler (gorevad) values (@gorevadi)"
+        command.CommandText = "INSERT INTO gorevler (gorevad) values ('" + gorevadi + "')"
         command.Connection = baglanti
         command.Parameters.AddWithValue("@gorevadi", gorevadi)
         command.ExecuteNonQuery()
         MsgBox("Görev Eklendi")
     End Sub
     Public Sub addOda(odanum As String, yatsay As String)
-        command.CommandText = "INSERT INTO odalar (odanumarasi,guncelogrencisayisi,yataksayisi) values (@odanum,0,@yatsay)"
+        command.CommandText = "INSERT INTO odalar (odanumarasi,guncelogrencisayisi,yataksayisi) values ('" + odanum + "','" + 0 + "','" + yatsay + "')"
         command.Connection = baglanti
         command.Parameters.AddWithValue("@odanum", odanum)
         command.Parameters.AddWithValue("@yatsay", yatsay)
