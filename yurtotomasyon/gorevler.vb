@@ -37,4 +37,19 @@
         con.closeCon()
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim burs As String
+        Dim id, ad, soyad, tc, tel, mail, ogrturu, bolum, okul, odanumarasi, gunceldonem As String
+        id = TextBox1.Text
+        ad = TextBox4.Text
+        con.openCon()
+        'con.updateGorevler(id, ad)
+        Dim dtable As DataTable = con.getOgrenciler()
+        dtable.Clear()
+        MsgBox(TextBox1.Text)
+        DataGridView1.DataSource = dtable
+        DataGridView1.DataSource = con.getOgrenciler()
+        con.closeCon()
+    End Sub
 End Class
