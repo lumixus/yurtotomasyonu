@@ -54,7 +54,6 @@
 
         Dim burs As String
         Dim id, ad, soyad, tc, tel, mail, ogrturu, bolum, okul, odanumarasi, gunceldonem As String
-        Dim test As Boolean
         Dim tarih As DateTime
         If RadioButton1.Checked Then
             burs = RadioButton1.Text

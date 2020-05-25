@@ -35,7 +35,6 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
 
-        Dim cinsiyet As String
         Dim id, ad, soyad, tc, telno, gorevid, mail As String
         DataGridView1.CurrentRow.Cells(0).Value = TextBox1.Text
         DataGridView1.CurrentRow.Cells(1).Value = TextBox2.Text
